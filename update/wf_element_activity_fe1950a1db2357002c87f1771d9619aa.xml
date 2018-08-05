@@ -4,64 +4,53 @@
         <access>public</access>
         <attributes/>
         <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
-        <category>AnC Demo - Apache Proxy</category>
+        <category>AnC Demo - Zabbix</category>
         <checked_out_by/>
         <default_height/>
         <default_width/>
-        <description>Creates a new Virtual Host for the Site Demo CMS Load Balancer</description>
+        <description>Removes a Host from Zabbix</description>
         <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
-        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"tower","type":"STRING","mandatory":false},{"name":"temp_id","type":"STRING","mandatory":false},{"name":"lab_code","type":"STRING","mandatory":false},{"name":"cms_lb_ip","type":"STRING","mandatory":false}]}</input_meta>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"tower","type":"STRING","mandatory":true},{"name":"temp_id","type":"STRING","mandatory":true},{"name":"zabbix_ip","type":"STRING","mandatory":true},{"name":"zabbix_user","type":"STRING","mandatory":true},{"name":"zabbix_pass","type":"STRING","mandatory":true},{"name":"host_name","type":"STRING","mandatory":true}]}</input_meta>
         <input_process_script/>
-        <input_transform>{"web_service_message":"e96f495adb9b9340786ff1351d961921","web_service_message_function":"4a70995adb9b9340786ff1351d961911","web_service_endpoint":"","parameters":"[{\"name\":\"extra_vars\",\"value\":\"{\\\"lab_code\\\": \\\"${activityInput.lab_code}\\\", \\\"cms_lb_ip\\\": \\\"${activityInput.cms_lb_ip}\\\"}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"Temp_ID\",\"value\":\"${activityInput.temp_id}\",\"additional_attribute\":\"\"},{\"name\":\"TowerIPAddress\",\"value\":\"${activityInput.tower}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"true","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <input_transform>{"web_service_message":"e96f495adb9b9340786ff1351d961921","web_service_message_function":"4a70995adb9b9340786ff1351d961911","web_service_endpoint":"","parameters":"[{\"name\":\"extra_vars\",\"value\":\"{\\\"zabbix_ip\\\": \\\"${activityInput.zabbix_ip}\\\", \\\"zabbix_user\\\": \\\"${activityInput.zabbix_user}\\\", \\\"zabbix_pass\\\": \\\"${activityInput.zabbix_pass}\\\", \\\"host_name\\\": \\\"${activityInput.host_name}\\\"}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"Temp_ID\",\"value\":\"${activityInput.temp_id}\",\"additional_attribute\":\"\"},{\"name\":\"TowerIPAddress\",\"value\":\"${activityInput.tower}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"true","time_out":"20","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
         <local_variables/>
-        <name>Create MSP LB Virtual Host</name>
+        <name>Remove Host</name>
         <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"status_code","type":"INTEGER"},{"name":"header","type":"DATA_OBJECT"},{"name":"body","type":"STRING"},{"name":"error","type":"STRING"},{"name":"output","type":"DATA_OBJECT","properties":[{"name":"skip_tags","type":"STRING"},{"name":"instance_group","type":"STRING"},{"name":"force_handlers","type":"BOOLEAN"},{"name":"unified_job_template","type":"INTEGER"},{"name":"result_traceback","type":"STRING"},{"name":"ask_credential_on_launch","type":"BOOLEAN"},{"name":"project","type":"INTEGER"},{"name":"ignored_fields","type":"DATA_OBJECT","properties":[{"name":"extra_vars","type":"DATA_OBJECT","properties":[]}]},{"name":"type","type":"STRING"},{"name":"launch_type","type":"STRING"},{"name":"execution_node","type":"STRING"},{"name":"credential","type":"INTEGER"},{"name":"limit","type":"STRING"},{"name":"modified","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"playbook","type":"STRING"},{"name":"artifacts","type":"DATA_OBJECT","properties":[]},{"name":"vault_credential","type":"STRING"},{"name":"forks","type":"INTEGER"},{"name":"allow_simultaneous","type":"BOOLEAN"},{"name":"use_fact_cache","type":"BOOLEAN"},{"name":"created","type":"STRING"},{"name":"finished","type":"STRING"},{"name":"failed","type":"BOOLEAN"},{"name":"job_args","type":"STRING"},{"name":"ask_inventory_on_launch","type":"BOOLEAN"},{"name":"passwords_needed_to_start","type":"DATA_ARRAY","properties":[{"name":"Array element type: ","type":"STRING"}]},{"name":"name","type":"STRING"},{"name":"job_explanation","type":"STRING"},{"name":"ask_tags_on_launch","type":"BOOLEAN"},{"name":"job_env","type":"DATA_OBJECT","properties":[]},{"name":"ask_variables_on_launch","type":"BOOLEAN"},{"name":"job","type":"INTEGER"},{"name":"job_cwd","type":"STRING"},{"name":"status","type":"STRING"},{"name":"job_type","type":"STRING"},{"name":"description","type":"STRING"},{"name":"job_template","type":"INTEGER"},{"name":"ask_limit_on_launch","type":"BOOLEAN"},{"name":"summary_fields","type":"DATA_OBJECT","properties":[{"name":"extra_credentials","type":"DATA_ARRAY","properties":[{"name":"Array element type: ","type":"STRING"}]},{"name":"credential","type":"DATA_OBJECT","properties":[{"name":"cloud","type":"BOOLEAN"},{"name":"kind","type":"STRING"},{"name":"name","type":"STRING"},{"name":"description","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"credential_type_id","type":"INTEGER"}]},{"name":"unified_job_template","type":"DATA_OBJECT","properties":[{"name":"name","type":"STRING"},{"name":"description","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"unified_job_type","type":"STRING"}]},{"name":"modified_by","type":"DATA_OBJECT","properties":[{"name":"last_name","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"first_name","type":"STRING"},{"name":"username","type":"STRING"}]},{"name":"user_capabilities","type":"DATA_OBJECT","properties":[{"name":"start","type":"BOOLEAN"},{"name":"delete","type":"BOOLEAN"}]},{"name":"job_template","type":"DATA_OBJECT","properties":[{"name":"name","type":"STRING"},{"name":"description","type":"STRING"},{"name":"id","type":"INTEGER"}]},{"name":"project","type":"DATA_OBJECT","properties":[{"name":"name","type":"STRING"},{"name":"description","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"scm_type","type":"STRING"},{"name":"status","type":"STRING"}]},{"name":"inventory","type":"DATA_OBJECT","properties":[{"name":"inventory_sources_with_failures","type":"INTEGER"},{"name":"total_groups","type":"INTEGER"},{"name":"kind","type":"STRING"},{"name":"total_hosts","type":"INTEGER"},{"name":"description","type":"STRING"},{"name":"hosts_with_active_failures","type":"INTEGER"},{"name":"groups_with_active_failures","type":"INTEGER"},{"name":"organization_id","type":"INTEGER"},{"name":"name","type":"STRING"},{"name":"has_active_failures","type":"BOOLEAN"},{"name":"id","type":"INTEGER"},{"name":"total_inventory_sources","type":"INTEGER"},{"name":"has_inventory_sources","type":"BOOLEAN"}]},{"name":"created_by","type":"DATA_OBJECT","properties":[{"name":"last_name","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"first_name","type":"STRING"},{"name":"username","type":"STRING"}]},{"name":"labels","type":"DATA_OBJECT","properties":[{"name":"count","type":"INTEGER"},{"name":"results","type":"DATA_ARRAY","properties":[{"name":"Array element type: ","type":"STRING"}]}]}]},{"name":"inventory","type":"INTEGER"},{"name":"timeout","type":"INTEGER"},{"name":"result_stdout","type":"STRING"},{"name":"elapsed","type":"INTEGER"},{"name":"diff_mode","type":"BOOLEAN"},{"name":"related","type":"DATA_OBJECT","properties":[{"name":"cancel","type":"STRING"},{"name":"unified_job_template","type":"STRING"},{"name":"stdout","type":"STRING"},{"name":"project","type":"STRING"},{"name":"job_host_summaries","type":"STRING"},{"name":"job_template","type":"STRING"},{"name":"inventory","type":"STRING"},{"name":"created_by","type":"STRING"},{"name":"labels","type":"STRING"},{"name":"extra_credentials","type":"STRING"},{"name":"relaunch","type":"STRING"},{"name":"activity_stream","type":"STRING"},{"name":"credential","type":"STRING"},{"name":"modified_by","type":"STRING"},{"name":"job_events","type":"STRING"},{"name":"notifications","type":"STRING"}]},{"name":"start_at_task","type":"STRING"},{"name":"scm_revision","type":"STRING"},{"name":"ask_diff_mode_on_launch","type":"BOOLEAN"},{"name":"ask_verbosity_on_launch","type":"BOOLEAN"},{"name":"job_tags","type":"STRING"},{"name":"started","type":"STRING"},{"name":"url","type":"STRING"},{"name":"extra_vars","type":"STRING"},{"name":"ask_job_type_on_launch","type":"BOOLEAN"},{"name":"ask_skip_tags_on_launch","type":"BOOLEAN"},{"name":"verbosity","type":"INTEGER"}]}]}</output_meta>
         <output_process_script/>
         <output_transform>[{"toLink":"activityOutput.status_code","to":"status_code","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.status_code","from":"${executionResult.status_code}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityOutput.header","to":"header","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.header","from":"${executionResult.header}","fromSource":"executionResult","type":"JSON","translation":"$","description":"","children":[]},{"toLink":"activityOutput.body","to":"body","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityOutput.error","to":"error","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.error","from":"${executionResult.error}","fromSource":"executionResult","type":"Direct","translation":"","description":"","children":[]},{"toLink":"activityOutput.output","to":"output","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"JSON","translation":"$","description":"","children":[]}]</output_transform>
         <processing_script/>
         <sample_payloads>{}</sample_payloads>
-        <short_description>Create MSP LB Virtual Host</short_description>
+        <short_description>Removes a Host from Zabbix</short_description>
         <style/>
         <sys_class_name>wf_element_activity</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-07-24 12:25:49</sys_created_on>
-        <sys_id>e4485170db2f9300786ff1351d9619c4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Create MSP LB Virtual Host</sys_name>
+        <sys_created_on>2018-07-26 15:46:31</sys_created_on>
+        <sys_id>fe1950a1db2357002c87f1771d9619aa</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Remove Host</sys_name>
         <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>wf_element_activity_e4485170db2f9300786ff1351d9619c4</sys_update_name>
+        <sys_update_name>wf_element_activity_fe1950a1db2357002c87f1771d9619aa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-04 11:19:44</sys_updated_on>
-        <version_container_id>a63d74dfdb1f13402c87f1771d9619a6</version_container_id>
+        <sys_updated_on>2018-08-04 11:31:56</sys_updated_on>
+        <version_container_id>dc6950a1db2357002c87f1771d9619cc</version_container_id>
     </wf_element_activity>
-    <sys_translated_text action="delete_multiple" query="documentkey=e4485170db2f9300786ff1351d9619c4"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=fe1950a1db2357002c87f1771d9619aa"/>
     <wf_versionable action="INSERT_OR_UPDATE">
         <checked_out/>
         <checked_out_by/>
         <published>false</published>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-07-24 12:25:49</sys_created_on>
-        <sys_id>24485170db2f9300786ff1351d9619c5</sys_id>
+        <sys_created_on>2018-07-26 15:46:31</sys_created_on>
+        <sys_id>546950a1db2357002c87f1771d9619ce</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-04 11:19:44</sys_updated_on>
-        <valid_from>2018-07-24 12:26:05</valid_from>
+        <sys_updated_on>2018-08-04 11:31:56</sys_updated_on>
+        <valid_from>2018-07-26 15:55:30</valid_from>
         <valid_to/>
-        <version>2</version>
-        <version_container_id>a63d74dfdb1f13402c87f1771d9619a6</version_container_id>
-        <wf_element_definition display_value="Create MSP LB Virtual Host">e4485170db2f9300786ff1351d9619c4</wf_element_definition>
+        <version>1</version>
+        <version_container_id>dc6950a1db2357002c87f1771d9619cc</version_container_id>
+        <wf_element_definition display_value="Remove Host">fe1950a1db2357002c87f1771d9619aa</wf_element_definition>
     </wf_versionable>
-    <wf_versionable action="update_multiple" query="version_container_id=a63d74dfdb1f13402c87f1771d9619a6^sys_id!=24485170db2f9300786ff1351d9619c5^version&lt;2">
-        <published>false</published>
-    </wf_versionable>
-    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=a63d74dfdb1f13402c87f1771d9619a6">
-        <new_activity_definition>e4485170db2f9300786ff1351d9619c4</new_activity_definition>
-        <out_of_date>true</out_of_date>
-        <notes>There is a newer version of this activity.
-
-To update the activity, check out the workflow, select the activity, right click
-and select 'Update activity' to use the latest version, then publish the workflow</notes>
-    </wf_activity>
 </record_update>

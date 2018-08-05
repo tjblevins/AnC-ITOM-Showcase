@@ -4,7 +4,7 @@
         <active>true</active>
         <category/>
         <content><![CDATA[    <h1 class="title topictitle1">Create SSH private key credentials</h1>        <div class="body taskbody">        <div class="section context">            <p class="p">SSH private key credentials are recommended over SSH password        credentials for security reasons.</p>        </div>        <ol class="ol steps" id="ssh_private_key_credentials-normal__steps_mqs_rvb_1w"><li class="li step">                <span class="ph cmd">Complete the fields in the form.</span>            </li><li class="li step">                <span class="ph cmd">To test your credential before you submit it, click <span class="ph uicontrol">Test                        credential</span> under <span class="ph uicontrol">Related Links</span>.</span>            </li><li class="li step">                <span class="ph cmd">Provide the connection specifics in the Test Credential dialog box and click                        <span class="ph uicontrol">OK</span>.</span>            </li><li class="li step">                <span class="ph cmd">If the credential connects to the target, click                    <span class="ph uicontrol">Submit</span>.</span>            </li></ol>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:SSHPrivateKeyCredentials&amp;version&#61;kingston" target="_blank">SSH private key credentials</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:TestCredentials&amp;version&#61;kingston" target="_blank">Test credentials</a></div></div></div></div>]]></content>
-        <last_sync>2018-07-17 12:20:10</last_sync>
+        <last_sync>2018-08-01 12:21:12</last_sync>
         <modifier>normal</modifier>
         <name>ssh_private_key_credentials-normal</name>
         <page>ssh_private_key_credentials</page>
@@ -19,14 +19,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b5d3dd66dbd7d340786ff1351d9619d1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>ssh_private_key_credentials-normal</sys_name>
         <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_embedded_help_content_b5d3dd66dbd7d340786ff1351d9619d1</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-07-17 12:20:10</sys_updated_on>
+        <sys_updated_on>2018-08-01 12:21:12</sys_updated_on>
         <version>k</version>
     </sys_embedded_help_content>
     <sys_translated_text action="delete_multiple" query="documentkey=b5d3dd66dbd7d340786ff1351d9619d1"/>

@@ -10,9 +10,9 @@
         <default_width/>
         <description>Creates a new Virtual Host for the New Wordpress Server</description>
         <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
-        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"tower","type":"STRING","mandatory":false},{"name":"temp_id","type":"STRING","mandatory":false},{"name":"lab_code","type":"STRING","mandatory":false},{"name":"www_ip","type":"STRING","mandatory":false}]}</input_meta>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"tower","type":"STRING","mandatory":false},{"name":"lab_code","type":"STRING","mandatory":false},{"name":"www_ip","type":"STRING","mandatory":false}]}</input_meta>
         <input_process_script/>
-        <input_transform>{"web_service_message":"e96f495adb9b9340786ff1351d961921","web_service_message_function":"4a70995adb9b9340786ff1351d961911","web_service_endpoint":"","parameters":"[{\"name\":\"extra_vars\",\"value\":\"{\\\"lab_code\\\": \\\"${activityInput.lab_code}\\\", \\\"www_ip\\\": \\\"${activityInput.www_ip}\\\"}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"Temp_ID\",\"value\":\"${activityInput.temp_id}\",\"additional_attribute\":\"\"},{\"name\":\"TowerIPAddress\",\"value\":\"${activityInput.tower}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"true","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <input_transform>{"web_service_message":"e96f495adb9b9340786ff1351d961921","web_service_message_function":"4a70995adb9b9340786ff1351d961911","web_service_endpoint":"","parameters":"[{\"name\":\"extra_vars\",\"value\":\"{\\\"lab_code\\\": \\\"${activityInput.lab_code}\\\", \\\"www_ip\\\": \\\"${activityInput.www_ip}\\\"}\",\"additional_attribute\":\"do_not_escape_text\"},{\"name\":\"Temp_ID\",\"value\":\"28\",\"additional_attribute\":\"\"},{\"name\":\"TowerIPAddress\",\"value\":\"${activityInput.tower}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"true","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
         <local_variables>{"name":"Local","type":"DATA_OBJECT","properties":[{"name":"localStatus_code","type":"INTEGER"},{"name":"localHeader","type":"DATA_OBJECT"},{"name":"localBody","type":"STRING"},{"name":"localError","type":"STRING"},{"name":"localOutput","type":"DATA_OBJECT","properties":[{"name":"skip_tags","type":"STRING"},{"name":"instance_group","type":"STRING"},{"name":"force_handlers","type":"BOOLEAN"},{"name":"unified_job_template","type":"INTEGER"},{"name":"result_traceback","type":"STRING"},{"name":"ask_credential_on_launch","type":"BOOLEAN"},{"name":"project","type":"INTEGER"},{"name":"ignored_fields","type":"DATA_OBJECT","properties":[{"name":"extra_vars","type":"DATA_OBJECT","properties":[]}]},{"name":"type","type":"STRING"},{"name":"launch_type","type":"STRING"},{"name":"execution_node","type":"STRING"},{"name":"credential","type":"INTEGER"},{"name":"limit","type":"STRING"},{"name":"modified","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"playbook","type":"STRING"},{"name":"artifacts","type":"DATA_OBJECT","properties":[]},{"name":"vault_credential","type":"STRING"},{"name":"forks","type":"INTEGER"},{"name":"allow_simultaneous","type":"BOOLEAN"},{"name":"use_fact_cache","type":"BOOLEAN"},{"name":"created","type":"STRING"},{"name":"finished","type":"STRING"},{"name":"failed","type":"BOOLEAN"},{"name":"job_args","type":"STRING"},{"name":"ask_inventory_on_launch","type":"BOOLEAN"},{"name":"passwords_needed_to_start","type":"DATA_ARRAY","properties":[{"name":"Array element type: ","type":"STRING"}]},{"name":"name","type":"STRING"},{"name":"job_explanation","type":"STRING"},{"name":"ask_tags_on_launch","type":"BOOLEAN"},{"name":"job_env","type":"DATA_OBJECT","properties":[]},{"name":"ask_variables_on_launch","type":"BOOLEAN"},{"name":"job","type":"INTEGER"},{"name":"job_cwd","type":"STRING"},{"name":"status","type":"STRING"},{"name":"job_type","type":"STRING"},{"name":"description","type":"STRING"},{"name":"job_template","type":"INTEGER"},{"name":"ask_limit_on_launch","type":"BOOLEAN"},{"name":"summary_fields","type":"DATA_OBJECT","properties":[{"name":"extra_credentials","type":"DATA_ARRAY","properties":[{"name":"Array element type: ","type":"STRING"}]},{"name":"credential","type":"DATA_OBJECT","properties":[{"name":"cloud","type":"BOOLEAN"},{"name":"kind","type":"STRING"},{"name":"name","type":"STRING"},{"name":"description","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"credential_type_id","type":"INTEGER"}]},{"name":"unified_job_template","type":"DATA_OBJECT","properties":[{"name":"name","type":"STRING"},{"name":"description","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"unified_job_type","type":"STRING"}]},{"name":"modified_by","type":"DATA_OBJECT","properties":[{"name":"last_name","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"first_name","type":"STRING"},{"name":"username","type":"STRING"}]},{"name":"user_capabilities","type":"DATA_OBJECT","properties":[{"name":"start","type":"BOOLEAN"},{"name":"delete","type":"BOOLEAN"}]},{"name":"job_template","type":"DATA_OBJECT","properties":[{"name":"name","type":"STRING"},{"name":"description","type":"STRING"},{"name":"id","type":"INTEGER"}]},{"name":"project","type":"DATA_OBJECT","properties":[{"name":"name","type":"STRING"},{"name":"description","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"scm_type","type":"STRING"},{"name":"status","type":"STRING"}]},{"name":"inventory","type":"DATA_OBJECT","properties":[{"name":"inventory_sources_with_failures","type":"INTEGER"},{"name":"total_groups","type":"INTEGER"},{"name":"kind","type":"STRING"},{"name":"total_hosts","type":"INTEGER"},{"name":"description","type":"STRING"},{"name":"hosts_with_active_failures","type":"INTEGER"},{"name":"groups_with_active_failures","type":"INTEGER"},{"name":"organization_id","type":"INTEGER"},{"name":"name","type":"STRING"},{"name":"has_active_failures","type":"BOOLEAN"},{"name":"id","type":"INTEGER"},{"name":"total_inventory_sources","type":"INTEGER"},{"name":"has_inventory_sources","type":"BOOLEAN"}]},{"name":"created_by","type":"DATA_OBJECT","properties":[{"name":"last_name","type":"STRING"},{"name":"id","type":"INTEGER"},{"name":"first_name","type":"STRING"},{"name":"username","type":"STRING"}]},{"name":"labels","type":"DATA_OBJECT","properties":[{"name":"count","type":"INTEGER"},{"name":"results","type":"DATA_ARRAY","properties":[{"name":"Array element type: ","type":"STRING"}]}]}]},{"name":"inventory","type":"INTEGER"},{"name":"timeout","type":"INTEGER"},{"name":"result_stdout","type":"STRING"},{"name":"elapsed","type":"INTEGER"},{"name":"diff_mode","type":"BOOLEAN"},{"name":"related","type":"DATA_OBJECT","properties":[{"name":"cancel","type":"STRING"},{"name":"unified_job_template","type":"STRING"},{"name":"stdout","type":"STRING"},{"name":"project","type":"STRING"},{"name":"job_host_summaries","type":"STRING"},{"name":"job_template","type":"STRING"},{"name":"inventory","type":"STRING"},{"name":"created_by","type":"STRING"},{"name":"labels","type":"STRING"},{"name":"extra_credentials","type":"STRING"},{"name":"relaunch","type":"STRING"},{"name":"activity_stream","type":"STRING"},{"name":"credential","type":"STRING"},{"name":"modified_by","type":"STRING"},{"name":"job_events","type":"STRING"},{"name":"notifications","type":"STRING"}]},{"name":"start_at_task","type":"STRING"},{"name":"scm_revision","type":"STRING"},{"name":"ask_diff_mode_on_launch","type":"BOOLEAN"},{"name":"ask_verbosity_on_launch","type":"BOOLEAN"},{"name":"job_tags","type":"STRING"},{"name":"started","type":"STRING"},{"name":"url","type":"STRING"},{"name":"extra_vars","type":"STRING"},{"name":"ask_job_type_on_launch","type":"BOOLEAN"},{"name":"ask_skip_tags_on_launch","type":"BOOLEAN"},{"name":"verbosity","type":"INTEGER"}]}]}</local_variables>
         <name>Create CMS LB Virtual Host</name>
         <output_meta/>
@@ -24,33 +24,44 @@
         <style/>
         <sys_class_name>wf_element_activity</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-07-24 12:00:10</sys_created_on>
-        <sys_id>fe021d3cdbeb9300786ff1351d961942</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2018-08-04 11:17:32</sys_created_on>
+        <sys_id>bf12f114dbf75f00786ff1351d961914</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Create CMS LB Virtual Host</sys_name>
         <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>wf_element_activity_fe021d3cdbeb9300786ff1351d961942</sys_update_name>
+        <sys_update_name>wf_element_activity_bf12f114dbf75f00786ff1351d961914</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-08-04 11:18:57</sys_updated_on>
         <version_container_id>4162117cdbeb9300786ff1351d96198a</version_container_id>
     </wf_element_activity>
-    <sys_translated_text action="delete_multiple" query="documentkey=fe021d3cdbeb9300786ff1351d961942"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bf12f114dbf75f00786ff1351d961914"/>
     <wf_versionable action="INSERT_OR_UPDATE">
         <checked_out/>
         <checked_out_by/>
-        <published>false</published>
+        <published>true</published>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-07-24 12:00:11</sys_created_on>
-        <sys_id>8d62117cdbeb9300786ff1351d96198a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2018-08-04 11:17:32</sys_created_on>
+        <sys_id>7f12f114dbf75f00786ff1351d961915</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-08-04 11:18:57</sys_updated_on>
-        <valid_from>2018-07-24 12:07:11</valid_from>
+        <valid_from>2018-08-04 11:18:57</valid_from>
         <valid_to/>
-        <version>1</version>
+        <version>2</version>
         <version_container_id>4162117cdbeb9300786ff1351d96198a</version_container_id>
-        <wf_element_definition display_value="Create CMS LB Virtual Host">fe021d3cdbeb9300786ff1351d961942</wf_element_definition>
+        <wf_element_definition display_value="Create CMS LB Virtual Host">bf12f114dbf75f00786ff1351d961914</wf_element_definition>
     </wf_versionable>
+    <wf_versionable action="update_multiple" query="version_container_id=4162117cdbeb9300786ff1351d96198a^sys_id!=7f12f114dbf75f00786ff1351d961915^version&lt;2">
+        <published>false</published>
+    </wf_versionable>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=4162117cdbeb9300786ff1351d96198a">
+        <new_activity_definition>bf12f114dbf75f00786ff1351d961914</new_activity_definition>
+        <out_of_date>true</out_of_date>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+    </wf_activity>
 </record_update>
