@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="wf_element_activity">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_element_activity">
     <wf_element_activity action="INSERT_OR_UPDATE">
         <access>public</access>
         <attributes/>
