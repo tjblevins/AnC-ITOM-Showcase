@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="incident" label="Incident" language="en" table="var__m_sys_hub_action_input_48b0f1e5db8c2740e243b6d1ba9619bd">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>incident</element>
+            <help/>
+            <hint/>
+            <label>Incident</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_48b0f1e5db8c2740e243b6d1ba9619bd</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.depot</sys_created_by>
+            <sys_created_on>2018-08-20 18:39:23</sys_created_on>
+            <sys_id>04b0f1e5db8c2740e243b6d1ba9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Incident</sys_name>
+            <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_48b0f1e5db8c2740e243b6d1ba9619bd_incident_en</sys_update_name>
+            <sys_updated_by>john.depot</sys_updated_by>
+            <sys_updated_on>2018-08-20 18:39:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

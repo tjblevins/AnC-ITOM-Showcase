@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ansible_launch_template</internal_name>
+        <label_cache>[{"name":"{{action.toweripaddress}}","label":"action➛TowerIPAddress","type":"action","ref":""},{"name":"{{action.temp_id}}","label":"action➛Temp_ID","type":"action","ref":""},{"name":"{{action.incident}}","label":"action➛Incident","type":"action","ref":"incident"},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>facb8679dbc0a740e243b6d1ba961907</latest_snapshot>
+        <master_snapshot>af7abacfdb3b5b00c71f6583ca96195f</master_snapshot>
+        <name>Ansible Launch Template</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-13 05:07:46</sys_created_on>
+        <sys_id>b6c3fa07db3b5b00c71f6583ca961970</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Ansible Launch Template</sys_name>
+        <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b6c3fa07db3b5b00c71f6583ca961970</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-21 15:16:30</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b6c3fa07db3b5b00c71f6583ca961970"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b6c3fa07db3b5b00c71f6583ca961970"/>
+    <sys_element_mapping action="delete_multiple" query="id=b6c3fa07db3b5b00c71f6583ca961970"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_code</field>
+        <id>b6c3fa07db3b5b00c71f6583ca961970</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-13 06:33:23</sys_created_on>
+        <sys_id>cd67cf07dbbb5b00c71f6583ca96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-13 06:33:23</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</table>
+        <value>{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error_message</field>
+        <id>b6c3fa07db3b5b00c71f6583ca961970</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-13 06:33:23</sys_created_on>
+        <sys_id>0967cf07dbbb5b00c71f6583ca96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-13 06:33:23</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</table>
+        <value>{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responce_body</field>
+        <id>b6c3fa07db3b5b00c71f6583ca961970</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-13 06:33:23</sys_created_on>
+        <sys_id>4567cf07dbbb5b00c71f6583ca96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-13 06:33:23</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</table>
+        <value>{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status_code</field>
+        <id>b6c3fa07db3b5b00c71f6583ca961970</id>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2018-08-13 06:33:23</sys_created_on>
+        <sys_id>8167cf07dbbb5b00c71f6583ca96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2018-08-13 06:33:23</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</table>
+        <value>{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}</value>
+    </sys_element_mapping>
+</record_update>
