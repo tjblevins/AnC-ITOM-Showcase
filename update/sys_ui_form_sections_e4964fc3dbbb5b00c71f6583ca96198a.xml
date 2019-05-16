@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">e4964fc3dbbb5b00c71f6583ca96198a</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="connection_attributes" sys_domain="global" view="Default view">64964fc3dbbb5b00c71f6583ca96198f</sys_ui_section>
+            <sys_ui_section display_value="">64964fc3dbbb5b00c71f6583ca96198f</sys_ui_section>
             <sys_updated_by>john.depot</sys_updated_by>
             <sys_updated_on>2018-08-13 06:29:48</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">e4964fc3dbbb5b00c71f6583ca96198a</sys_ui_form>
-            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="connection_attributes" sys_domain="global" view="Default view">2c964fc3dbbb5b00c71f6583ca96198c</sys_ui_section>
+            <sys_ui_section display_value="">2c964fc3dbbb5b00c71f6583ca96198c</sys_ui_section>
             <sys_updated_by>john.depot</sys_updated_by>
             <sys_updated_on>2018-08-13 06:29:48</sys_updated_on>
         </sys_ui_form_section>
@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">e4964fc3dbbb5b00c71f6583ca96198a</sys_ui_form>
-            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="connection_attributes" sys_domain="global" view="Default view">ec964fc3dbbb5b00c71f6583ca9619b8</sys_ui_section>
+            <sys_ui_section display_value="">ec964fc3dbbb5b00c71f6583ca9619b8</sys_ui_section>
             <sys_updated_by>john.depot</sys_updated_by>
             <sys_updated_on>2018-08-13 06:29:48</sys_updated_on>
         </sys_ui_form_section>
@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="connection_attributes" name="connection_attributes" sys_domain="global" view="Default view">e4964fc3dbbb5b00c71f6583ca96198a</sys_ui_form>
-            <sys_ui_section caption="Default Value" display_value="Default Value" name="connection_attributes" sys_domain="global" view="Default view">a8964fc3dbbb5b00c71f6583ca9619b7</sys_ui_section>
+            <sys_ui_section display_value="">a8964fc3dbbb5b00c71f6583ca9619b7</sys_ui_section>
             <sys_updated_by>john.depot</sys_updated_by>
             <sys_updated_on>2018-08-13 06:29:48</sys_updated_on>
         </sys_ui_form_section>
