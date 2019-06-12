@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Launch Ansible Template">099d6968dbbdb7409b7ed8b6f49619ef</action>
+        <cid>f75538b7-09fa-4a4d-b76a-03853fc1b24b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>c99d6968dbbdb7409b7ed8b6f49619f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>REST step</sys_name>
+        <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_step_instance_c99d6968dbbdb7409b7ed8b6f49619f2</sys_update_name>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c99d6968dbbdb7409b7ed8b6f49619f2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c99d6968dbbdb7409b7ed8b6f49619f2</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>059da968dbbdb7409b7ed8b6f4961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c99d6968dbbdb7409b7ed8b6f49619f2</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>099da968dbbdb7409b7ed8b6f4961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c99d6968dbbdb7409b7ed8b6f49619f2</document_key>
+        <order>11</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>0d9da968dbbdb7409b7ed8b6f4961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">e532afc12f101300a09a839fb18c95b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c99d6968dbbdb7409b7ed8b6f49619f2</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>419da968dbbdb7409b7ed8b6f4961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c99d6968dbbdb7409b7ed8b6f49619f2</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>459da968dbbdb7409b7ed8b6f4961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+        <value>{"extra_vars": {"host_ip": "172.32.3.36", "service": "mysqld"}}</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c99d6968dbbdb7409b7ed8b6f49619f2</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>499da968dbbdb7409b7ed8b6f4961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c99d6968dbbdb7409b7ed8b6f49619f2</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>819da968dbbdb7409b7ed8b6f4961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+        <value>https://172.31.4.152/api/v2/job_templates/71/launch/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c99d6968dbbdb7409b7ed8b6f49619f2</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>8d9da968dbbdb7409b7ed8b6f4961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+        <value>b5f91a57d7002200bdbaee5b5e6103ec</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c99d6968dbbdb7409b7ed8b6f49619f2</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>c99da968dbbdb7409b7ed8b6f4961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c99d6968dbbdb7409b7ed8b6f49619f2</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>john.depot</sys_created_by>
+        <sys_created_on>2019-05-30 11:52:54</sys_created_on>
+        <sys_id>cd9da968dbbdb7409b7ed8b6f4961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>john.depot</sys_updated_by>
+        <sys_updated_on>2019-05-30 11:52:54</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+</record_update>
