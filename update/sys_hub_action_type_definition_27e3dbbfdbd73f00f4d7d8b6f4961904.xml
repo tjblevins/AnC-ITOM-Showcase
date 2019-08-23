@@ -12,7 +12,7 @@
 Returns URL and Host (Host may be and IP)</description>
         <internal_name>get_tower_info</internal_name>
         <label_cache>[{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{step[8ef4249d-1121-46b0-bb30-de5bcf14cccd].record.url}}","label":"step➛Look Up Record step➛Ansible Tower Record➛URL","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u}}","label":"step➛Script step➛u","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_}}","label":"step➛Script step➛u_","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_h}}","label":"step➛Script step➛u_h","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_ho}}","label":"step➛Script step➛u_ho","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_hos}}","label":"step➛Script step➛u_hos","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_host}}","label":"step➛Script step➛u_host","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>3c695ff7db1b3f00f4d7d8b6f496199e</latest_snapshot>
+        <latest_snapshot>10f95108db277f00f4d7d8b6f49619f7</latest_snapshot>
         <master_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</master_snapshot>
         <name>Get Tower Info</name>
         <outputs/>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Install MID Server - DEMO Shared MID Server">f452bcc0db237f00f4d7d8b6f4961923</action>
+        <cid>d8a6fc29-e984-4591-8a21-9560aada9fea</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>d952bcc0db237f00f4d7d8b6f49619b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>REST step</sys_name>
+        <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_step_instance_d952bcc0db237f00f4d7d8b6f49619b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d952bcc0db237f00f4d7d8b6f49619b1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d952bcc0db237f00f4d7d8b6f49619b1</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>1152bcc0db237f00f4d7d8b6f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d952bcc0db237f00f4d7d8b6f49619b1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>1952bcc0db237f00f4d7d8b6f49619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">a9adb007b3c21300176b051a16a8dc9a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d952bcc0db237f00f4d7d8b6f49619b1</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>1d52bcc0db237f00f4d7d8b6f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d952bcc0db237f00f4d7d8b6f49619b1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>5552bcc0db237f00f4d7d8b6f49619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <value>ansible_response.txt</value>
+        <variable display_value="">9458387787201300b3b67d5e27cb0b3b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d952bcc0db237f00f4d7d8b6f49619b1</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>5952bcc0db237f00f4d7d8b6f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <value>b5f91a57d7002200bdbaee5b5e6103ec</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d952bcc0db237f00f4d7d8b6f49619b1</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>9152bcc0db237f00f4d7d8b6f49619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d952bcc0db237f00f4d7d8b6f49619b1</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>9552bcc0db237f00f4d7d8b6f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d952bcc0db237f00f4d7d8b6f49619b1</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>d152bcc0db237f00f4d7d8b6f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d952bcc0db237f00f4d7d8b6f49619b1</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>dd52bcc0db237f00f4d7d8b6f49619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <value>/api/v2/job_templates/95/launch/</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d952bcc0db237f00f4d7d8b6f49619b1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>dd52bcc0db237f00f4d7d8b6f49619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_file_name</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>d952bcc0db237f00f4d7d8b6f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>9552bcc0db237f00f4d7d8b6f49619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>https://{{action.toweripaddress}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>5952bcc0db237f00f4d7d8b6f49619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"extra_vars": { "instancename": "{{action.instancename}}", "midname": "{{action.midname}}", "install_dir": "{{action.install_dir}}", "mid_server_ip": "{{action.mid_server_ip}}", "miduser": "{{action.miduser}}"}}
+</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>d152bcc0db237f00f4d7d8b6f49619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>1952bcc0db237f00f4d7d8b6f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>1152bcc0db237f00f4d7d8b6f49619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>1d52bcc0db237f00f4d7d8b6f49619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>9152bcc0db237f00f4d7d8b6f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>5552bcc0db237f00f4d7d8b6f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>d952bcc0db237f00f4d7d8b6f49619b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 18:06:58</sys_created_on>
+        <sys_id>9d52bcc0db237f00f4d7d8b6f49619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 18:06:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
