@@ -13,7 +13,7 @@
         <master>true</master>
         <name>Launch Ansible Template</name>
         <outputs/>
-        <parent_action display_value="Launch Ansible Template">4a9be124dbbdb7409b7ed8b6f4961915</parent_action>
+        <parent_action display_value="">4a9be124dbbdb7409b7ed8b6f4961915</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-05-30 11:52:54</sys_created_on>

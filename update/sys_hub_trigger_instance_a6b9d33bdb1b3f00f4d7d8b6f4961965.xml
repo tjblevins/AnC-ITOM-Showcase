@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_trigger_instance">
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Execution Flow">e6e71b37db1b3f00f4d7d8b6f49619da</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:39:51</sys_created_on>
+        <sys_id>a6b9d33bdb1b3f00f4d7d8b6f4961965</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>daily</sys_name>
+        <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_trigger_instance_a6b9d33bdb1b3f00f4d7d8b6f4961965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 14:00:41</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a6b9d33bdb1b3f00f4d7d8b6f4961965"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a6b9d33bdb1b3f00f4d7d8b6f4961965</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:39:51</sys_created_on>
+        <sys_id>aeb9d33bdb1b3f00f4d7d8b6f4961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 11:39:51</sys_updated_on>
+        <value>1970-01-01 07:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+</record_update>

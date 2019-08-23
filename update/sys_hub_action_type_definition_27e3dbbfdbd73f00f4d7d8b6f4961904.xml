@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Look Up">2c739fbfdbd73f00f4d7d8b6f4961964</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Looks up the Ansible Tower Record for information.
+Returns URL and Host (Host may be and IP)</description>
+        <internal_name>get_tower_info</internal_name>
+        <label_cache>[{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{step[8ef4249d-1121-46b0-bb30-de5bcf14cccd].record.url}}","label":"step➛Look Up Record step➛Ansible Tower Record➛URL","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u}}","label":"step➛Script step➛u","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_}}","label":"step➛Script step➛u_","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_h}}","label":"step➛Script step➛u_h","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_ho}}","label":"step➛Script step➛u_ho","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_hos}}","label":"step➛Script step➛u_hos","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_host}}","label":"step➛Script step➛u_host","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>3c695ff7db1b3f00f4d7d8b6f496199e</latest_snapshot>
+        <master_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</master_snapshot>
+        <name>Get Tower Info</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:14:31</sys_created_on>
+        <sys_id>27e3dbbfdbd73f00f4d7d8b6f4961904</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Get Tower Info</sys_name>
+        <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_27e3dbbfdbd73f00f4d7d8b6f4961904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 11:38:28</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=27e3dbbfdbd73f00f4d7d8b6f4961904"/>
+    <sys_variable_value action="delete_multiple" query="document_key=27e3dbbfdbd73f00f4d7d8b6f4961904"/>
+    <sys_element_mapping action="delete_multiple" query="id=27e3dbbfdbd73f00f4d7d8b6f4961904"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>hostname</field>
+        <id>27e3dbbfdbd73f00f4d7d8b6f4961904</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:30:18</sys_created_on>
+        <sys_id>fa879737db1b3f00f4d7d8b6f4961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 11:30:18</sys_updated_on>
+        <table>var__m_sys_hub_action_output_27e3dbbfdbd73f00f4d7d8b6f4961904</table>
+        <value>{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_host}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>url</field>
+        <id>27e3dbbfdbd73f00f4d7d8b6f4961904</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:30:18</sys_created_on>
+        <sys_id>be879737db1b3f00f4d7d8b6f4961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 11:30:18</sys_updated_on>
+        <table>var__m_sys_hub_action_output_27e3dbbfdbd73f00f4d7d8b6f4961904</table>
+        <value>{{step[8ef4249d-1121-46b0-bb30-de5bcf14cccd].record.url}}</value>
+    </sys_element_mapping>
+</record_update>
