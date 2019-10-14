@@ -27,9 +27,9 @@
         <sys_id>2688434ddb3c37407e339e7aca96197b</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>Add A Record to Hosted Zone</sys_name>
-        <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>wf_element_activity_2688434ddb3c37407e339e7aca96197b</sys_update_name>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2019-04-12 14:55:02</sys_updated_on>

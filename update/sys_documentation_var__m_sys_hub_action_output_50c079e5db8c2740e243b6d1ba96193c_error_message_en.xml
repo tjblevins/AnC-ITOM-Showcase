@@ -14,9 +14,9 @@
             <sys_id>81c0b9e5db8c2740e243b6d1ba96192a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Error Message</sys_name>
-            <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+            <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+            <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
             <sys_update_name>sys_documentation_var__m_sys_hub_action_output_50c079e5db8c2740e243b6d1ba96193c_error_message_en</sys_update_name>
             <sys_updated_by>john.depot</sys_updated_by>
             <sys_updated_on>2018-08-20 18:39:43</sys_updated_on>

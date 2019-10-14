@@ -27,9 +27,9 @@
         <sys_id>f08d716fdbdb53402c87f1771d9619f2</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Configure Wordpress Server</sys_name>
-        <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>wf_element_activity_f08d716fdbdb53402c87f1771d9619f2</sys_update_name>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-07-20 18:05:44</sys_updated_on>

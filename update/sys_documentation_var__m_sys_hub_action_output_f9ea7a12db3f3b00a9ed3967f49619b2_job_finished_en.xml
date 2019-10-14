@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="job_finished" label="Job Finished" language="en" table="var__m_sys_hub_action_output_f9ea7a12db3f3b00a9ed3967f49619b2">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>job_finished</element>
+            <help/>
+            <hint/>
+            <label>Job Finished</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_f9ea7a12db3f3b00a9ed3967f49619b2</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tomb</sys_created_by>
+            <sys_created_on>2019-09-12 14:05:43</sys_created_on>
+            <sys_id>52ea3e12db3f3b00a9ed3967f4961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Job Finished</sys_name>
+            <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f9ea7a12db3f3b00a9ed3967f49619b2_job_finished_en</sys_update_name>
+            <sys_updated_by>tomb</sys_updated_by>
+            <sys_updated_on>2019-09-12 14:05:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

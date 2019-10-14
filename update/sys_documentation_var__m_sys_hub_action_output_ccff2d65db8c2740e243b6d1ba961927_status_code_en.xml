@@ -14,9 +14,9 @@
             <sys_id>d4ff2d65db8c2740e243b6d1ba96198d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Status Code</sys_name>
-            <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+            <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+            <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
             <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ccff2d65db8c2740e243b6d1ba961927_status_code_en</sys_update_name>
             <sys_updated_by>john.depot</sys_updated_by>
             <sys_updated_on>2018-08-20 18:36:07</sys_updated_on>

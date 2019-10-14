@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -24,12 +24,14 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:31:56</sys_created_on>
+        <sys_domain>global</sys_domain>
         <sys_id>e6e71b37db1b3f00f4d7d8b6f49619da</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>Test Execution Flow</sys_name>
-        <sys_package display_value="Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_overrides/>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_flow_e6e71b37db1b3f00f4d7d8b6f49619da</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-08-23 16:00:00</sys_updated_on>
@@ -37,4 +39,270 @@
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=e6e71b37db1b3f00f4d7d8b6f49619da"/>
     <sys_variable_value action="delete_multiple" query="document_key=e6e71b37db1b3f00f4d7d8b6f49619da"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=e6e71b37db1b3f00f4d7d8b6f49619da^sys_idNOT IN25f9b337dbdb3f00f4d7d8b6f4961913,a2b9973bdb1b3f00f4d7d8b6f49619eb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Execution Flow">e6e71b37db1b3f00f4d7d8b6f49619da</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 14:00:41</sys_created_on>
+        <sys_id>25f9b337dbdb3f00f4d7d8b6f4961913</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_action_instance_25f9b337dbdb3f00f4d7d8b6f4961913</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 16:00:01</sys_updated_on>
+        <ui_id>444bde73-e5a7-4850-9a47-77a7f8a71edb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=25f9b337dbdb3f00f4d7d8b6f4961913"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>25f9b337dbdb3f00f4d7d8b6f4961913</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 16:00:01</sys_created_on>
+        <sys_id>2545900cdb6f3f00f4d7d8b6f496193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 16:00:01</sys_updated_on>
+        <value>71</value>
+        <variable display_value="">fc7af6cfdb3b5b00c71f6583ca961979</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=25f9b337dbdb3f00f4d7d8b6f4961913"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>temp_id</field>
+        <id>25f9b337dbdb3f00f4d7d8b6f4961913</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 16:00:01</sys_created_on>
+        <sys_id>ad45900cdb6f3f00f4d7d8b6f496193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 16:00:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b6c3fa07db3b5b00c71f6583ca961970</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>25f9b337dbdb3f00f4d7d8b6f4961913</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 14:00:41</sys_created_on>
+        <sys_id>edf9b337dbdb3f00f4d7d8b6f4961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 14:00:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b6c3fa07db3b5b00c71f6583ca961970</table>
+        <value>{{49c8483b-bd57-425b-9bf4-672d6c8dd20c.hostname}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Tower Info">27e3dbbfdbd73f00f4d7d8b6f4961904</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Execution Flow">e6e71b37db1b3f00f4d7d8b6f49619da</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:39:51</sys_created_on>
+        <sys_id>a2b9973bdb1b3f00f4d7d8b6f49619eb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a2b9973bdb1b3f00f4d7d8b6f49619eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 16:00:01</sys_updated_on>
+        <ui_id>49c8483b-bd57-425b-9bf4-672d6c8dd20c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a2b9973bdb1b3f00f4d7d8b6f49619eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a2b9973bdb1b3f00f4d7d8b6f49619eb</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:39:51</sys_created_on>
+        <sys_id>62b9973bdb1b3f00f4d7d8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 11:39:51</sys_updated_on>
+        <value>MSPTower1</value>
+        <variable display_value="">f1875737db1b3f00f4d7d8b6f4961916</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e6e71b37db1b3f00f4d7d8b6f49619da^sys_idNOT INa6b9d33bdb1b3f00f4d7d8b6f4961965"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Execution Flow">e6e71b37db1b3f00f4d7d8b6f49619da</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:39:51</sys_created_on>
+        <sys_id>a6b9d33bdb1b3f00f4d7d8b6f4961965</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>daily</sys_name>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_trigger_instance_a6b9d33bdb1b3f00f4d7d8b6f4961965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 16:00:01</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a6b9d33bdb1b3f00f4d7d8b6f4961965"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a6b9d33bdb1b3f00f4d7d8b6f4961965</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:39:51</sys_created_on>
+        <sys_id>aeb9d33bdb1b3f00f4d7d8b6f4961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 11:39:51</sys_updated_on>
+        <value>1970-01-01 07:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e6e71b37db1b3f00f4d7d8b6f49619da^sys_idNOT INa2e71b37db1b3f00f4d7d8b6f49619db"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e6e71b37db1b3f00f4d7d8b6f49619da</id>
+        <name>Test Execution Flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:31:56</sys_created_on>
+        <sys_id>a2e71b37db1b3f00f4d7d8b6f49619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Execution Flow</sys_name>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_a2e71b37db1b3f00f4d7d8b6f49619db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 11:31:56</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e6e71b37db1b3f00f4d7d8b6f49619da^sys_idNOT IN25f9b337dbdb3f00f4d7d8b6f4961913,a2b9973bdb1b3f00f4d7d8b6f49619eb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Execution Flow">e6e71b37db1b3f00f4d7d8b6f49619da</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 14:00:41</sys_created_on>
+        <sys_id>25f9b337dbdb3f00f4d7d8b6f4961913</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_action_instance_25f9b337dbdb3f00f4d7d8b6f4961913</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 16:00:01</sys_updated_on>
+        <ui_id>444bde73-e5a7-4850-9a47-77a7f8a71edb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=25f9b337dbdb3f00f4d7d8b6f4961913"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>25f9b337dbdb3f00f4d7d8b6f4961913</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 16:00:01</sys_created_on>
+        <sys_id>2545900cdb6f3f00f4d7d8b6f496193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 16:00:01</sys_updated_on>
+        <value>71</value>
+        <variable display_value="">fc7af6cfdb3b5b00c71f6583ca961979</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=25f9b337dbdb3f00f4d7d8b6f4961913"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>temp_id</field>
+        <id>25f9b337dbdb3f00f4d7d8b6f4961913</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 16:00:01</sys_created_on>
+        <sys_id>ad45900cdb6f3f00f4d7d8b6f496193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 16:00:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b6c3fa07db3b5b00c71f6583ca961970</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>toweripaddress</field>
+        <id>25f9b337dbdb3f00f4d7d8b6f4961913</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 14:00:41</sys_created_on>
+        <sys_id>edf9b337dbdb3f00f4d7d8b6f4961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 14:00:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b6c3fa07db3b5b00c71f6583ca961970</table>
+        <value>{{49c8483b-bd57-425b-9bf4-672d6c8dd20c.hostname}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Tower Info">27e3dbbfdbd73f00f4d7d8b6f4961904</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Execution Flow">e6e71b37db1b3f00f4d7d8b6f49619da</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:39:51</sys_created_on>
+        <sys_id>a2b9973bdb1b3f00f4d7d8b6f49619eb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a2b9973bdb1b3f00f4d7d8b6f49619eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 16:00:01</sys_updated_on>
+        <ui_id>49c8483b-bd57-425b-9bf4-672d6c8dd20c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a2b9973bdb1b3f00f4d7d8b6f49619eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a2b9973bdb1b3f00f4d7d8b6f49619eb</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-23 11:39:51</sys_created_on>
+        <sys_id>62b9973bdb1b3f00f4d7d8b6f49619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-23 11:39:51</sys_updated_on>
+        <value>MSPTower1</value>
+        <variable display_value="">f1875737db1b3f00f4d7d8b6f4961916</variable>
+    </sys_variable_value>
 </record_update>
