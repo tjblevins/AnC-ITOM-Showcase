@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Systems Management">911fa328dbe440d0a9ed3967f49619d8</category>
+        <copied_from>a96a5a5cdb28cc90a9ed3967f496196c</copied_from>
+        <copied_from_name>Linux - Rename Server</copied_from_name>
+        <description/>
+        <internal_name>copy_of_linux__rename_server</internal_name>
+        <label_cache>[{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"db1eba2e-dd9c-4d01-bb95-1aaf4d6a838b.status_id","label":"3➛Status ID","reference_display":"Status ID","type":"string","base_type":"string"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.scheduled_end_date_time","label":"2.2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.total_duration","label":"2.2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_finished","label":"2.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_started","label":"2.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_failed","label":"2.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_status","label":"2.1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_id","label":"2.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.responce_body","label":"2.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_code","label":"2.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.status_code","label":"2.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.server_ip","label":"Input➛Server IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.lab_code","label":"Input➛Lab Code","type":"string","base_type":"string"},{"name":"subflow.server_role","label":"Input➛Server Role","type":"string","base_type":"string"},{"name":"subflow.ansible_tower","label":"Input➛Ansible Tower","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of Linux - Rename Server</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-23 11:50:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c835e1abdb60001015e3dd18f49619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Linux - Rename Server</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name>sys_hub_flow_c835e1abdb60001015e3dd18f49619c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:50:41</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c835e1abdb60001015e3dd18f49619c5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c835e1abdb60001015e3dd18f49619c5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c835e1abdb60001015e3dd18f49619c5^sys_idNOT IN8c35e1abdb60001015e3dd18f49619c7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c835e1abdb60001015e3dd18f49619c5</id>
+        <name>Copy of Linux - Rename Server</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-23 11:50:41</sys_created_on>
+        <sys_id>8c35e1abdb60001015e3dd18f49619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:50:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</application>
+        <file_path/>
+        <instance_id>b4c8c878dbb7d74c439ef70fbf96194f</instance_id>
+        <instance_name>ancshowcasedemo</instance_name>
+        <name>sys_hub_flow_c835e1abdb60001015e3dd18f49619c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category display_value="Systems Management">911fa328dbe440d0a9ed3967f49619d8</category><copied_from>a96a5a5cdb28cc90a9ed3967f496196c</copied_from><copied_from_name>Linux - Rename Server</copied_from_name><description/><internal_name>copy_of_linux__rename_server</internal_name><label_cache>[{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a4b80239-f517-4cea-8e82-4770fee350c9.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"db1eba2e-dd9c-4d01-bb95-1aaf4d6a838b.status_id","label":"3➛Status ID","reference_display":"Status ID","type":"string","base_type":"string"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.scheduled_end_date_time","label":"2.2➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"0f1055a8-872c-4777-a2d6-3da168c9a8a1.total_duration","label":"2.2➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_finished","label":"2.1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_started","label":"2.1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_failed","label":"2.1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_status","label":"2.1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.job_id","label":"2.1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_message","label":"2.1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.responce_body","label":"2.1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.error_code","label":"2.1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"99591286-b818-4b1f-ac7a-4551f4120dd8.status_code","label":"2.1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"},{"name":"subflow.server_ip","label":"Input➛Server IP","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.lab_code","label":"Input➛Lab Code","type":"string","base_type":"string"},{"name":"subflow.server_role","label":"Input➛Server Role","type":"string","base_type":"string"},{"name":"subflow.ansible_tower","label":"Input➛Ansible Tower","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_finished","label":"1➛Job Finished","reference_display":"Job Finished","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_started","label":"1➛Job Started","reference_display":"Job Started","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_failed","label":"1➛Job Failed","reference_display":"Job Failed","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_status","label":"1➛Job Status","reference_display":"Job Status","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.job_id","label":"1➛Job ID","reference_display":"Job ID","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.responce_body","label":"1➛Responce Body","reference_display":"Responce Body","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.error_code","label":"1➛Error Code","reference_display":"Error Code","type":"string","base_type":"string"},{"name":"146f8ff9-3568-4353-86b9-32accd5c50a2.status_code","label":"1➛Status Code","reference_display":"Status Code","type":"string","base_type":"string"}]</label_cache><latest_snapshot/><master_snapshot/><name>Copy of Linux - Rename Server</name><outputs/><remote_trigger_id/><run_as>system</run_as><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-23 11:50:41</sys_created_on><sys_domain>global</sys_domain><sys_id>c835e1abdb60001015e3dd18f49619c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Copy of Linux - Rename Server</sys_name><sys_overrides/><sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package><sys_policy/><sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope><sys_update_name>sys_hub_flow_c835e1abdb60001015e3dd18f49619c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-23 11:50:41</sys_updated_on><type>subflow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=c835e1abdb60001015e3dd18f49619c5"/><sys_variable_value action="delete_multiple" query="document_key=c835e1abdb60001015e3dd18f49619c5"/><sys_flow_cat_variable_model action="delete_multiple" query="id=c835e1abdb60001015e3dd18f49619c5^sys_idNOT IN8c35e1abdb60001015e3dd18f49619c7"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>c835e1abdb60001015e3dd18f49619c5</id><name>Copy of Linux - Rename Server</name><sys_class_name>sys_flow_cat_variable_model</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-23 11:50:41</sys_created_on><sys_id>8c35e1abdb60001015e3dd18f49619c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-23 11:50:41</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>1612932472</payload_hash>
+        <record_name>Copy of Linux - Rename Server</record_name>
+        <reverted_from/>
+        <source>fdfbded2db7b3b00a9ed3967f49619e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-23 11:50:41</sys_created_on>
+        <sys_id>8c35e1abdb60001015e3dd18f49619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16df87468da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:50:41</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>8435e1ab566000108dd5fc5d46301ecb</update_guid>
+        <update_guid_history>8435e1ab566000108dd5fc5d46301ecb:1612932472</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-23 11:52:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>0e71b47d34564af4ba3d1d0cf9775710</sys_id>
+        <sys_metadata>c835e1abdb60001015e3dd18f49619c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Linux - Rename Server</sys_name>
+        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_scope_delete display_value="">7d3a3852c27341f8add6eef5f8c545f1</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_c835e1abdb60001015e3dd18f49619c5</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_c835e1abdb60001015e3dd18f49619c5">8c35e1abdb60001015e3dd18f49619cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:52:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

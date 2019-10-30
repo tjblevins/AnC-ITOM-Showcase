@@ -13,9 +13,9 @@
         <ih_action>true</ih_action>
         <internal_name>ansible_launch_template</internal_name>
         <label_cache>[{"name":"{{action.toweripaddress}}","label":"action➛TowerIPAddress","type":"action","ref":""},{"name":"{{action.temp_id}}","label":"action➛Temp_ID","type":"action","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_id}}","label":"step➛Script step➛u_id","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_status}}","label":"step➛Script step➛u_status","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_failed}}","label":"step➛Script step➛u_failed","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_started}}","label":"step➛Script step➛u_started","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_finished}}","label":"step➛Script step➛u_finished","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>8fa83a5edbfb3b00a9ed3967f496193f</latest_snapshot>
+        <latest_snapshot>67d225efdb20001015e3dd18f496191c</latest_snapshot>
         <master_snapshot>af7abacfdb3b5b00c71f6583ca96195f</master_snapshot>
-        <name>Ansible Launch Template</name>
+        <name>Ansible - Launch Template</name>
         <outputs/>
         <outputs/>
         <state>published</state>
@@ -24,15 +24,15 @@
         <sys_created_on>2018-08-13 05:07:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>b6c3fa07db3b5b00c71f6583ca961970</sys_id>
-        <sys_mod_count>63</sys_mod_count>
-        <sys_name>Ansible Launch Template</sys_name>
+        <sys_mod_count>68</sys_mod_count>
+        <sys_name>Ansible - Launch Template</sys_name>
         <sys_overrides/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b6c3fa07db3b5b00c71f6583ca961970</sys_update_name>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:01</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:37</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -149,7 +149,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=b6c3fa07db3b5b00c71f6583ca961970^sys_idNOT INd0a8765edbfb3b00a9ed3967f4961994,f87af6cfdb3b5b00c71f6583ca9619b2"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action>
+        <action display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action>
         <cid>55067207-a011-4868-81ef-8a6ce2faec47</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -747,7 +747,7 @@ outputs.u_finished = obj.finished;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action>
+        <action display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action>
         <cid>d8a6fc29-e984-4591-8a21-9560aada9fea</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1216,7 +1216,7 @@ outputs.u_finished = obj.finished;
         <label>TowerIPAddress</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -1297,7 +1297,7 @@ outputs.u_finished = obj.finished;
         <label>Temp_ID</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -1381,7 +1381,7 @@ outputs.u_finished = obj.finished;
         <label>Error Code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -1404,14 +1404,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:22</sys_created_on>
         <sys_id>05678f07dbbb5b00c71f6583ca9619d2</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:54</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1464,7 +1464,7 @@ outputs.u_finished = obj.finished;
         <label>Job ID</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -1547,7 +1547,7 @@ outputs.u_finished = obj.finished;
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -1570,14 +1570,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:23</sys_created_on>
         <sys_id>81678f07dbbb5b00c71f6583ca9619df</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:54</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1630,7 +1630,7 @@ outputs.u_finished = obj.finished;
         <label>Job Status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -1713,7 +1713,7 @@ outputs.u_finished = obj.finished;
         <label>Job Failed</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -1796,7 +1796,7 @@ outputs.u_finished = obj.finished;
         <label>Job Started</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -1879,7 +1879,7 @@ outputs.u_finished = obj.finished;
         <label>Job Finished</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -1962,7 +1962,7 @@ outputs.u_finished = obj.finished;
         <label>Responce Body</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -1985,14 +1985,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:23</sys_created_on>
         <sys_id>c9678f07dbbb5b00c71f6583ca9619d8</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:54</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2045,7 +2045,7 @@ outputs.u_finished = obj.finished;
         <label>Status Code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
+        <model display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</model>
         <model_id>b6c3fa07db3b5b00c71f6583ca961970</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970</name>
@@ -2068,14 +2068,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:22</sys_created_on>
         <sys_id>f8678f07dbbb5b00c71f6583ca9619ca</sys_id>
-        <sys_mod_count>71</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:54</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2089,7 +2089,7 @@ outputs.u_finished = obj.finished;
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=b6c3fa07db3b5b00c71f6583ca961970^sys_idNOT INd0a8765edbfb3b00a9ed3967f4961994,f87af6cfdb3b5b00c71f6583ca9619b2"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action>
+        <action display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action>
         <cid>55067207-a011-4868-81ef-8a6ce2faec47</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2687,7 +2687,7 @@ outputs.u_finished = obj.finished;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action>
+        <action display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action>
         <cid>d8a6fc29-e984-4591-8a21-9560aada9fea</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3396,23 +3396,23 @@ outputs.u_finished = obj.finished;
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=b6c3fa07db3b5b00c71f6583ca961970^sys_idNOT INa6482120dbbdb7409b7ed8b6f4961953"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action_id>
+        <action_id display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a6482120dbbdb7409b7ed8b6f4961953","name":"plan"}}</plan>
-        <snapshot>8fa83a5edbfb3b00a9ed3967f496193f</snapshot>
+        <snapshot>67d225efdb20001015e3dd18f496191c</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-05-30 11:29:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>a6482120dbbdb7409b7ed8b6f4961953</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>b6c3fa07db3b5b00c71f6583ca961970</sys_name>
         <sys_overrides/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_action_plan_a6482120dbbdb7409b7ed8b6f4961953</sys_update_name>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:04</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:41</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3427,24 +3427,24 @@ outputs.u_finished = obj.finished;
         <internal_name>ansible_launch_template</internal_name>
         <label_cache>[{"name":"{{action.toweripaddress}}","label":"action➛TowerIPAddress","type":"action","ref":""},{"name":"{{action.temp_id}}","label":"action➛Temp_ID","type":"action","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_id}}","label":"step➛Script step➛u_id","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_status}}","label":"step➛Script step➛u_status","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_failed}}","label":"step➛Script step➛u_failed","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_started}}","label":"step➛Script step➛u_started","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_finished}}","label":"step➛Script step➛u_finished","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Ansible Launch Template</name>
+        <name>Ansible - Launch Template</name>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Ansible Launch Template">b6c3fa07db3b5b00c71f6583ca961970</parent_action>
+        <parent_action display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>af7abacfdb3b5b00c71f6583ca96195f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:59</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:36</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3561,7 +3561,7 @@ outputs.u_finished = obj.finished;
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=af7abacfdb3b5b00c71f6583ca96195f^sys_idNOT INe37abacfdb3b5b00c71f6583ca961984,f3a87a5edbfb3b00a9ed3967f496194d"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</action>
+        <action display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</action>
         <cid>d8a6fc29-e984-4591-8a21-9560aada9fea</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3991,7 +3991,7 @@ outputs.u_finished = obj.finished;
         <value/>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</action>
+        <action display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</action>
         <cid>55067207-a011-4868-81ef-8a6ce2faec47</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -4628,7 +4628,7 @@ outputs.u_finished = obj.finished;
         <label>Temp_ID</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -4709,7 +4709,7 @@ outputs.u_finished = obj.finished;
         <label>TowerIPAddress</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -4793,7 +4793,7 @@ outputs.u_finished = obj.finished;
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -4816,14 +4816,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>2a670347dbbb5b00c71f6583ca961957</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:01</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4876,7 +4876,7 @@ outputs.u_finished = obj.finished;
         <label>Job ID</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -4959,7 +4959,7 @@ outputs.u_finished = obj.finished;
         <label>Responce Body</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -4982,14 +4982,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>6e670347dbbb5b00c71f6583ca961951</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:01</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5042,7 +5042,7 @@ outputs.u_finished = obj.finished;
         <label>Job Finished</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -5125,7 +5125,7 @@ outputs.u_finished = obj.finished;
         <label>Error Code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -5148,14 +5148,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>a2670347dbbb5b00c71f6583ca96194c</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:01</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5208,7 +5208,7 @@ outputs.u_finished = obj.finished;
         <label>Job Status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -5291,7 +5291,7 @@ outputs.u_finished = obj.finished;
         <label>Job Failed</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -5374,7 +5374,7 @@ outputs.u_finished = obj.finished;
         <label>Job Started</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -5457,7 +5457,7 @@ outputs.u_finished = obj.finished;
         <label>Status Code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
+        <model display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</model>
         <model_id>af7abacfdb3b5b00c71f6583ca96195f</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f</name>
@@ -5480,14 +5480,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>ee670347dbbb5b00c71f6583ca961945</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:01</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:40:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5501,7 +5501,7 @@ outputs.u_finished = obj.finished;
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=af7abacfdb3b5b00c71f6583ca96195f^sys_idNOT INe37abacfdb3b5b00c71f6583ca961984,f3a87a5edbfb3b00a9ed3967f496194d"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</action>
+        <action display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</action>
         <cid>d8a6fc29-e984-4591-8a21-9560aada9fea</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -5931,7 +5931,7 @@ outputs.u_finished = obj.finished;
         <value/>
     </sys_element_mapping>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Ansible Launch Template">af7abacfdb3b5b00c71f6583ca96195f</action>
+        <action display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</action>
         <cid>55067207-a011-4868-81ef-8a6ce2faec47</cid>
         <extended_inputs/>
         <extended_inputs/>

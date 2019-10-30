@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="job_finished" label="Job Finished" language="en" table="var__m_sys_hub_action_output_054cf15ddba044d0a9ed3967f4961994">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>job_finished</element>
+            <help/>
+            <hint/>
+            <label>Job Finished</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_054cf15ddba044d0a9ed3967f4961994</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>david.loo</sys_created_by>
+            <sys_created_on>2019-10-16 13:45:13</sys_created_on>
+            <sys_id>a14cf55ddba044d0a9ed3967f49619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Job Finished</sys_name>
+            <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_054cf15ddba044d0a9ed3967f4961994_job_finished_en</sys_update_name>
+            <sys_updated_by>david.loo</sys_updated_by>
+            <sys_updated_on>2019-10-16 13:45:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

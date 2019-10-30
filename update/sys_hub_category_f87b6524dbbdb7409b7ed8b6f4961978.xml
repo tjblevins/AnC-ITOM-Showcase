@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
     <sys_hub_category action="INSERT_OR_UPDATE">
         <name>Base Actions</name>
-        <order>100</order>
+        <order>10</order>
         <sys_class_name>sys_hub_category</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-05-30 11:43:54</sys_created_on>
         <sys_id>f87b6524dbbdb7409b7ed8b6f4961978</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Base Actions</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_category_f87b6524dbbdb7409b7ed8b6f4961978</sys_update_name>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2019-05-30 11:43:54</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2019-10-14 13:02:59</sys_updated_on>
     </sys_hub_category>
     <sys_translated_text action="delete_multiple" query="documentkey=f87b6524dbbdb7409b7ed8b6f4961978"/>
 </record_update>

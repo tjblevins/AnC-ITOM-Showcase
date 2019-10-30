@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_started" label="u_started" language="en" table="var__m_sys_hub_step_ext_output_50490bb4dbb0081015e3dd18f496192c">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_started</element>
+            <help/>
+            <hint/>
+            <label>u_started</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_50490bb4dbb0081015e3dd18f496192c</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tomb</sys_created_by>
+            <sys_created_on>2019-10-27 16:20:18</sys_created_on>
+            <sys_id>a4490bb4dbb0081015e3dd18f496198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_started</sys_name>
+            <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_50490bb4dbb0081015e3dd18f496192c_u_started_en</sys_update_name>
+            <sys_updated_by>tomb</sys_updated_by>
+            <sys_updated_on>2019-10-27 16:20:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

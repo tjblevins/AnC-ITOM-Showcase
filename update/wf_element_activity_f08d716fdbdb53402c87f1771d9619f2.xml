@@ -3,7 +3,7 @@
         <access>public</access>
         <attributes/>
         <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
-        <category>AnC Demo - Wordpress</category>
+        <category>Deprecated - Wordpress</category>
         <checked_out_by/>
         <default_height/>
         <default_width/>
@@ -25,14 +25,14 @@
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-07-20 17:56:10</sys_created_on>
         <sys_id>f08d716fdbdb53402c87f1771d9619f2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Configure Wordpress Server</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>wf_element_activity_f08d716fdbdb53402c87f1771d9619f2</sys_update_name>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2018-07-20 18:05:44</sys_updated_on>
+        <sys_updated_by>tomb</sys_updated_by>
+        <sys_updated_on>2019-10-24 12:13:15</sys_updated_on>
         <version_container_id>53da71ebdbdb53402c87f1771d961918</version_container_id>
     </wf_element_activity>
     <sys_translated_text action="delete_multiple" query="documentkey=f08d716fdbdb53402c87f1771d9619f2"/>

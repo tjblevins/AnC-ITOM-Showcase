@@ -13,9 +13,9 @@
         <ih_action>true</ih_action>
         <internal_name>check_job_status</internal_name>
         <label_cache>[{"name":"{{action.toweripaddress}}","label":"action➛TowerIPAddress","type":"action","ref":""},{"name":"{{action.job_id}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action.job_id2}}","label":"action➛Job ID","type":"action","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_id}}","label":"step➛Script step➛u_id","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_status}}","label":"step➛Script step➛u_status","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_failed}}","label":"step➛Script step➛u_failed","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_started}}","label":"step➛Script step➛u_started","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_finished}}","label":"step➛Script step➛u_finished","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>4b7b3a52db3f3b00a9ed3967f4961935</latest_snapshot>
+        <latest_snapshot>da432563db60001015e3dd18f49619d3</latest_snapshot>
         <master_snapshot>d08b7a52db3f3b00a9ed3967f496193b</master_snapshot>
-        <name>Check Job Status</name>
+        <name>Ansible - Check Job Status</name>
         <outputs/>
         <outputs/>
         <state>published</state>
@@ -24,15 +24,15 @@
         <sys_created_on>2019-09-12 13:43:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>c8d57a5adbfb3b00a9ed3967f496193a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Check Job Status</sys_name>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Ansible - Check Job Status</sys_name>
         <sys_overrides/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_c8d57a5adbfb3b00a9ed3967f496193a</sys_update_name>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:26</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -149,7 +149,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=c8d57a5adbfb3b00a9ed3967f496193a^sys_idNOT INcb7a3212db3f3b00a9ed3967f496199f,d4d57a5adbfb3b00a9ed3967f496194a"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action>
+        <action display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action>
         <cid>a01ec0c5-fbe3-410c-a56f-b3a6513ba522</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -747,7 +747,7 @@ outputs.u_finished = obj.finished;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action>
+        <action display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action>
         <cid>d8a6fc29-e984-4591-8a21-9560aada9fea</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1072,7 +1072,7 @@ outputs.u_finished = obj.finished;
         <label>TowerIPAddress</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1153,7 +1153,7 @@ outputs.u_finished = obj.finished;
         <label>Job ID</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1237,7 +1237,7 @@ outputs.u_finished = obj.finished;
         <label>Error Code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1260,14 +1260,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:43:28</sys_created_on>
         <sys_id>10d57a5adbfb3b00a9ed3967f4961961</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:09</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1320,7 +1320,7 @@ outputs.u_finished = obj.finished;
         <label>Job Status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1403,7 +1403,7 @@ outputs.u_finished = obj.finished;
         <label>Status Code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1426,14 +1426,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:43:28</sys_created_on>
         <sys_id>58d57a5adbfb3b00a9ed3967f496195b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:08</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1486,7 +1486,7 @@ outputs.u_finished = obj.finished;
         <label>Job Finished</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1569,7 +1569,7 @@ outputs.u_finished = obj.finished;
         <label>Job Started</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1652,7 +1652,7 @@ outputs.u_finished = obj.finished;
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1675,14 +1675,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:43:28</sys_created_on>
         <sys_id>d0d57a5adbfb3b00a9ed3967f4961990</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:09</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1735,7 +1735,7 @@ outputs.u_finished = obj.finished;
         <label>Job ID</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1818,7 +1818,7 @@ outputs.u_finished = obj.finished;
         <label>Job Failed</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1901,7 +1901,7 @@ outputs.u_finished = obj.finished;
         <label>Responce Body</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
+        <model display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</model>
         <model_id>c8d57a5adbfb3b00a9ed3967f496193a</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_c8d57a5adbfb3b00a9ed3967f496193a</name>
@@ -1924,14 +1924,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:43:28</sys_created_on>
         <sys_id>dcd57a5adbfb3b00a9ed3967f4961965</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:09</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1945,7 +1945,7 @@ outputs.u_finished = obj.finished;
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=c8d57a5adbfb3b00a9ed3967f496193a^sys_idNOT INcb7a3212db3f3b00a9ed3967f496199f,d4d57a5adbfb3b00a9ed3967f496194a"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action>
+        <action display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action>
         <cid>a01ec0c5-fbe3-410c-a56f-b3a6513ba522</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2543,7 +2543,7 @@ outputs.u_finished = obj.finished;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action>
+        <action display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action>
         <cid>d8a6fc29-e984-4591-8a21-9560aada9fea</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3085,23 +3085,23 @@ outputs.u_finished = obj.finished;
     </sys_documentation>
     <sys_hub_action_plan action="delete_multiple" query="action_id=c8d57a5adbfb3b00a9ed3967f496193a^sys_idNOT IN198bba52db3f3b00a9ed3967f496199a"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_id>
+        <action_id display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"198bba52db3f3b00a9ed3967f496199a","name":"plan"}}</plan>
-        <snapshot>4b7b3a52db3f3b00a9ed3967f4961935</snapshot>
+        <snapshot>da432563db60001015e3dd18f49619d3</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 14:08:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>198bba52db3f3b00a9ed3967f496199a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:23</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:29</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3116,24 +3116,24 @@ outputs.u_finished = obj.finished;
         <internal_name>check_job_status</internal_name>
         <label_cache>[{"name":"{{action.toweripaddress}}","label":"action➛TowerIPAddress","type":"action","ref":""},{"name":"{{action.job_id}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action.job_id2}}","label":"action➛Job ID","type":"action","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_id}}","label":"step➛Script step➛u_id","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_status}}","label":"step➛Script step➛u_status","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_failed}}","label":"step➛Script step➛u_failed","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_started}}","label":"step➛Script step➛u_started","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_finished}}","label":"step➛Script step➛u_finished","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Check Job Status</name>
+        <name>Ansible - Check Job Status</name>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</parent_action>
+        <parent_action display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 14:08:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>d08b7a52db3f3b00a9ed3967f496193b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:24</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3250,7 +3250,7 @@ outputs.u_finished = obj.finished;
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=d08b7a52db3f3b00a9ed3967f496193b^sys_idNOT IN908b7a52db3f3b00a9ed3967f4961964,988b7a52db3f3b00a9ed3967f4961947"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action>
+        <action display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action>
         <cid>a01ec0c5-fbe3-410c-a56f-b3a6513ba522</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3848,7 +3848,7 @@ outputs.u_finished = obj.finished;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action>
+        <action display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action>
         <cid>d8a6fc29-e984-4591-8a21-9560aada9fea</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4121,7 +4121,7 @@ outputs.u_finished = obj.finished;
         <label>TowerIPAddress</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4202,7 +4202,7 @@ outputs.u_finished = obj.finished;
         <label>Job ID</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4286,7 +4286,7 @@ outputs.u_finished = obj.finished;
         <label>Error Code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4309,14 +4309,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 14:08:19</sys_created_on>
         <sys_id>288b7a52db3f3b00a9ed3967f49619c3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:20</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4369,7 +4369,7 @@ outputs.u_finished = obj.finished;
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4392,14 +4392,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 14:08:19</sys_created_on>
         <sys_id>a48b7a52db3f3b00a9ed3967f49619cd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:20</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4452,7 +4452,7 @@ outputs.u_finished = obj.finished;
         <label>Job ID</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4535,7 +4535,7 @@ outputs.u_finished = obj.finished;
         <label>Job Status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4618,7 +4618,7 @@ outputs.u_finished = obj.finished;
         <label>Job Failed</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4701,7 +4701,7 @@ outputs.u_finished = obj.finished;
         <label>Job Started</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4784,7 +4784,7 @@ outputs.u_finished = obj.finished;
         <label>Job Finished</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4867,7 +4867,7 @@ outputs.u_finished = obj.finished;
         <label>Responce Body</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4890,14 +4890,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 14:08:19</sys_created_on>
         <sys_id>e48b7a52db3f3b00a9ed3967f49619c8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:20</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4950,7 +4950,7 @@ outputs.u_finished = obj.finished;
         <label>Status Code</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
+        <model display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</model>
         <model_id>d08b7a52db3f3b00a9ed3967f496193b</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_d08b7a52db3f3b00a9ed3967f496193b</name>
@@ -4973,14 +4973,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 14:08:19</sys_created_on>
         <sys_id>ec8b7a52db3f3b00a9ed3967f49619bd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 14:08:20</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 11:42:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4994,7 +4994,7 @@ outputs.u_finished = obj.finished;
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=d08b7a52db3f3b00a9ed3967f496193b^sys_idNOT IN908b7a52db3f3b00a9ed3967f4961964,988b7a52db3f3b00a9ed3967f4961947"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action>
+        <action display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action>
         <cid>a01ec0c5-fbe3-410c-a56f-b3a6513ba522</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -5592,7 +5592,7 @@ outputs.u_finished = obj.finished;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action>
+        <action display_value="Ansible - Check Job Status">d08b7a52db3f3b00a9ed3967f496193b</action>
         <cid>d8a6fc29-e984-4591-8a21-9560aada9fea</cid>
         <extended_inputs/>
         <extended_outputs/>
