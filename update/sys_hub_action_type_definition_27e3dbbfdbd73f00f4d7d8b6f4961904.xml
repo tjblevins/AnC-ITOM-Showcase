@@ -17,6 +17,7 @@ Returns URL and Host (Host may be and IP)</description>
         <latest_snapshot>bb8329a3db60001015e3dd18f496197c</latest_snapshot>
         <master_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</master_snapshot>
         <name>NOW - Get Tower Info</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <state>published</state>
@@ -1167,6 +1168,7 @@ Returns URL and Host (Host may be and IP)</description>
         <label_cache>[{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{step[8ef4249d-1121-46b0-bb30-de5bcf14cccd].record.url}}","label":"step➛Look Up Record step➛Ansible Tower Record➛URL","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u}}","label":"step➛Script step➛u","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_}}","label":"step➛Script step➛u_","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_h}}","label":"step➛Script step➛u_h","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_ho}}","label":"step➛Script step➛u_ho","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_hos}}","label":"step➛Script step➛u_hos","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_host}}","label":"step➛Script step➛u_host","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>NOW - Get Tower Info</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <parent_action display_value="NOW - Get Tower Info">27e3dbbfdbd73f00f4d7d8b6f4961904</parent_action>

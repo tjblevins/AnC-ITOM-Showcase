@@ -16,6 +16,7 @@
         <latest_snapshot>da432563db60001015e3dd18f49619d3</latest_snapshot>
         <master_snapshot>d08b7a52db3f3b00a9ed3967f496193b</master_snapshot>
         <name>Ansible - Check Job Status</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <state>published</state>
@@ -3117,6 +3118,7 @@ outputs.u_finished = obj.finished;
         <label_cache>[{"name":"{{action.toweripaddress}}","label":"action➛TowerIPAddress","type":"action","ref":""},{"name":"{{action.job_id}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action.job_id2}}","label":"action➛Job ID","type":"action","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_id}}","label":"step➛Script step➛u_id","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_status}}","label":"step➛Script step➛u_status","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_failed}}","label":"step➛Script step➛u_failed","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_started}}","label":"step➛Script step➛u_started","type":"step","ref":""},{"name":"{{step[a01ec0c5-fbe3-410c-a56f-b3a6513ba522].u_finished}}","label":"step➛Script step➛u_finished","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Ansible - Check Job Status</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <parent_action display_value="Ansible - Check Job Status">c8d57a5adbfb3b00a9ed3967f496193a</parent_action>

@@ -16,6 +16,7 @@
         <latest_snapshot>027421e7db60001015e3dd18f49619b8</latest_snapshot>
         <master_snapshot>2f263324db2840d0a9ed3967f496193b</master_snapshot>
         <name>Apache - Deploy VirtualHost Config</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <state>published</state>
@@ -3535,6 +3536,7 @@ outputs.u_finished = obj.finished;
         <label_cache>[{"name":"{{action.toweripaddress}}","label":"action➛TowerIPAddress","type":"action","ref":""},{"name":"{{action.server_role}}","label":"action➛Server Role","type":"action","ref":""},{"name":"{{action.lab_code}}","label":"action➛Lab Code","type":"action","ref":""},{"name":"{{action.apache_host_ip}}","label":"action➛Apache Host IP","type":"action","ref":""},{"name":"{{action.target_ip}}","label":"action➛Target IP","type":"action","ref":""},{"name":"{{action.domain}}","label":"action➛Domain","type":"action","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_id}}","label":"step➛Script step➛u_id","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_status}}","label":"step➛Script step➛u_status","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_failed}}","label":"step➛Script step➛u_failed","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_started}}","label":"step➛Script step➛u_started","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_finished}}","label":"step➛Script step➛u_finished","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>Apache - Deploy VirtualHost Config</name>
+        <natlang/>
         <outputs/>
         <outputs/>
         <parent_action display_value="Apache - Deploy VirtualHost Config">c8b5bfa0db2840d0a9ed3967f4961978</parent_action>

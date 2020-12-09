@@ -15,7 +15,7 @@
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-21 12:29:40</sys_updated_on>
     </sys_hub_category>
-    <sys_translated_text action="delete_multiple" query="documentkey=1dea5b7edb2c8cd0a9ed3967f49619d3"/>
+    <sys_translated_text action="DELETE" query="documentkey=1dea5b7edb2c8cd0a9ed3967f49619d3"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</application>
