@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>apache_reset_lb_config_from_demo</internal_name>
         <label_cache>[{"name":"{{action.lab_code}}","label":"action➛Lab Code","type":"action","ref":""},{"name":"{{action.tower_public}}","label":"action➛Tower Public","type":"action","ref":""},{"name":"{{action.tower_public_ip}}","label":"action➛Tower Public IP","type":"action","ref":""},{"name":"{{action.server_ip}}","label":"action➛Server IP","type":"action","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_id}}","label":"step➛Script step➛u_id","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_status}}","label":"step➛Script step➛u_status","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_failed}}","label":"step➛Script step➛u_failed","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_started}}","label":"step➛Script step➛u_started","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_finished}}","label":"step➛Script step➛u_finished","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>1796f1cadbbec4106846dd384b9619a0</latest_snapshot>
+        <latest_snapshot>5cee34a8db012490425f81791396193c</latest_snapshot>
         <master_snapshot>c5490bb4dbb0081015e3dd18f49619e5</master_snapshot>
         <name>Apache- Reset LB Config from Demo</name>
         <natlang/>
@@ -25,15 +25,15 @@
         <sys_created_on>2019-10-27 16:11:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>152787f0dbb0081015e3dd18f49619b7</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Apache- Reset LB Config from Demo</sys_name>
         <sys_overrides/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_152787f0dbb0081015e3dd18f49619b7</sys_update_name>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:17</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:21</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -264,7 +264,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -322,14 +322,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:11:05</sys_created_on>
         <sys_id>e12787f0dbb0081015e3dd18f49619e3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-27 16:11:08</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:14:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -764,14 +764,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:11:05</sys_created_on>
         <sys_id>e12787f0dbb0081015e3dd18f49619ce</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:35:34</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:14:56</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e12787f0dbb0081015e3dd18f49619ce"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -838,10 +838,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:11:05</sys_created_on>
         <sys_id>6d2787f0dbb0081015e3dd18f49619dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-27 16:11:05</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:14:57</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -871,6 +871,20 @@ outputs.u_finished = obj.finished;
         <sys_updated_on>2019-10-27 16:11:05</sys_updated_on>
         <value>incident</value>
         <variable display_value="">a9adb007b3c21300176b051a16a8dc9a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e12787f0dbb0081015e3dd18f49619ce</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:14:57</sys_created_on>
+        <sys_id>bfce30a8db012490425f8179139619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:14:57</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -975,6 +989,18 @@ outputs.u_finished = obj.finished;
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>e12787f0dbb0081015e3dd18f49619ce</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:14:56</sys_created_on>
+        <sys_id>3fce30a8db012490425f8179139619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:14:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>e12787f0dbb0081015e3dd18f49619ce</id>
         <sys_created_by>tomb</sys_created_by>
@@ -1034,6 +1060,88 @@ outputs.u_finished = obj.finished;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e12787f0dbb0081015e3dd18f49619ce^sys_idNOT INbfce30a8db012490425f8179139619c2"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=5b1651b9-e050-48b7-8ce0-3d54ebb28e7a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">e12787f0dbb0081015e3dd18f49619ce</model>
+        <model_id>e12787f0dbb0081015e3dd18f49619ce</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e12787f0dbb0081015e3dd18f49619ce</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:14:56</sys_created_on>
+        <sys_id>bfce30a8db012490425f8179139619c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_action_input action="delete_multiple" query="model=152787f0dbb0081015e3dd18f49619b7^sys_idNOT IN252787f0dbb0081015e3dd18f49619c7,5d2787f0dbb0081015e3dd18f49619bd,9b36358adbbec4106846dd384b96191b"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1343,14 +1451,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:11:07</sys_created_on>
         <sys_id>3527c7f0dbb0081015e3dd18f4961939</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:09</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1426,14 +1534,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:11:06</sys_created_on>
         <sys_id>7927c7f0dbb0081015e3dd18f4961933</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:09</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1509,14 +1617,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:11:06</sys_created_on>
         <sys_id>bd27c7f0dbb0081015e3dd18f496192d</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:09</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1841,14 +1949,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:11:06</sys_created_on>
         <sys_id>f127c7f0dbb0081015e3dd18f4961927</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:09</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2142,7 +2250,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2200,14 +2308,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:11:05</sys_created_on>
         <sys_id>e12787f0dbb0081015e3dd18f49619e3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-27 16:11:08</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:14:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2642,14 +2750,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:11:05</sys_created_on>
         <sys_id>e12787f0dbb0081015e3dd18f49619ce</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:35:34</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:14:56</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e12787f0dbb0081015e3dd18f49619ce"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2716,10 +2824,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:11:05</sys_created_on>
         <sys_id>6d2787f0dbb0081015e3dd18f49619dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-27 16:11:05</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:14:57</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2749,6 +2857,20 @@ outputs.u_finished = obj.finished;
         <sys_updated_on>2019-10-27 16:11:05</sys_updated_on>
         <value>incident</value>
         <variable display_value="">a9adb007b3c21300176b051a16a8dc9a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e12787f0dbb0081015e3dd18f49619ce</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:14:57</sys_created_on>
+        <sys_id>bfce30a8db012490425f8179139619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:14:57</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2853,6 +2975,18 @@ outputs.u_finished = obj.finished;
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>e12787f0dbb0081015e3dd18f49619ce</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:14:56</sys_created_on>
+        <sys_id>3fce30a8db012490425f8179139619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:14:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>e12787f0dbb0081015e3dd18f49619ce</id>
         <sys_created_by>tomb</sys_created_by>
@@ -2912,6 +3046,88 @@ outputs.u_finished = obj.finished;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e12787f0dbb0081015e3dd18f49619ce^sys_idNOT INbfce30a8db012490425f8179139619c2"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=5b1651b9-e050-48b7-8ce0-3d54ebb28e7a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">e12787f0dbb0081015e3dd18f49619ce</model>
+        <model_id>e12787f0dbb0081015e3dd18f49619ce</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e12787f0dbb0081015e3dd18f49619ce</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:14:56</sys_created_on>
+        <sys_id>bfce30a8db012490425f8179139619c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_152787f0dbb0081015e3dd18f49619b7^sys_idNOT IN212787f0dbb0081015e3dd18f49619c6,212787f0dbb0081015e3dd18f49619cc,d336358adbbec4106846dd384b961921"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>tower_public_ip</element>
@@ -3194,21 +3410,21 @@ outputs.u_finished = obj.finished;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Apache- Reset LB Config from Demo">152787f0dbb0081015e3dd18f49619b7</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1e49cbb4dbb0081015e3dd18f4961911","name":"plan"}}</plan>
-        <snapshot>1796f1cadbbec4106846dd384b9619a0</snapshot>
+        <snapshot>5cee34a8db012490425f81791396193c</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>1e49cbb4dbb0081015e3dd18f4961911</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:20</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:26</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3472,7 +3688,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3530,14 +3746,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:20</sys_created_on>
         <sys_id>81494bb4dbb0081015e3dd18f496195e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-27 16:20:20</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3972,14 +4188,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:20</sys_created_on>
         <sys_id>85494bb4dbb0081015e3dd18f4961925</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:15</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=85494bb4dbb0081015e3dd18f4961925"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4032,10 +4248,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:20</sys_created_on>
         <sys_id>49494bb4dbb0081015e3dd18f496194b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-27 16:20:20</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:20</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4107,6 +4323,20 @@ outputs.u_finished = obj.finished;
         <sys_updated_on>2019-10-27 16:20:20</sys_updated_on>
         <value>b5f91a57d7002200bdbaee5b5e6103ec</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>85494bb4dbb0081015e3dd18f4961925</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:15:20</sys_created_on>
+        <sys_id>e9ee74a8db012490425f81791396198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:20</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=85494bb4dbb0081015e3dd18f4961925"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4183,6 +4413,18 @@ outputs.u_finished = obj.finished;
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>85494bb4dbb0081015e3dd18f4961925</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:15:20</sys_created_on>
+        <sys_id>a5ee74a8db012490425f81791396198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>85494bb4dbb0081015e3dd18f4961925</id>
         <sys_created_by>tomb</sys_created_by>
@@ -4242,6 +4484,88 @@ outputs.u_finished = obj.finished;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=85494bb4dbb0081015e3dd18f4961925^sys_idNOT INe9ee74a8db012490425f817913961982"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=5b1651b9-e050-48b7-8ce0-3d54ebb28e7a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">85494bb4dbb0081015e3dd18f4961925</model>
+        <model_id>85494bb4dbb0081015e3dd18f4961925</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_85494bb4dbb0081015e3dd18f4961925</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:15:19</sys_created_on>
+        <sys_id>e9ee74a8db012490425f817913961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_action_input action="delete_multiple" query="model=c5490bb4dbb0081015e3dd18f49619e5^sys_idNOT IN09490bb4dbb0081015e3dd18f49619e6,49494bb4dbb0081015e3dd18f496191e,8ca635cadbbec4106846dd384b9619bd"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -4551,14 +4875,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:21</sys_created_on>
         <sys_id>1d494bb4dbb0081015e3dd18f4961999</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:17</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4634,14 +4958,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:21</sys_created_on>
         <sys_id>51494bb4dbb0081015e3dd18f4961988</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:16</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4717,14 +5041,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:21</sys_created_on>
         <sys_id>51494bb4dbb0081015e3dd18f4961994</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:17</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4800,14 +5124,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:21</sys_created_on>
         <sys_id>95494bb4dbb0081015e3dd18f496198e</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:17</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5350,7 +5674,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5408,14 +5732,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:20</sys_created_on>
         <sys_id>81494bb4dbb0081015e3dd18f496195e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-27 16:20:20</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5850,14 +6174,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:20</sys_created_on>
         <sys_id>85494bb4dbb0081015e3dd18f4961925</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2020-02-07 17:37:15</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=85494bb4dbb0081015e3dd18f4961925"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5910,10 +6234,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-10-27 16:20:20</sys_created_on>
         <sys_id>49494bb4dbb0081015e3dd18f496194b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-10-27 16:20:20</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:20</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5985,6 +6309,20 @@ outputs.u_finished = obj.finished;
         <sys_updated_on>2019-10-27 16:20:20</sys_updated_on>
         <value>b5f91a57d7002200bdbaee5b5e6103ec</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>85494bb4dbb0081015e3dd18f4961925</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:15:20</sys_created_on>
+        <sys_id>e9ee74a8db012490425f81791396198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:20</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=85494bb4dbb0081015e3dd18f4961925"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -6061,6 +6399,18 @@ outputs.u_finished = obj.finished;
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>85494bb4dbb0081015e3dd18f4961925</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:15:20</sys_created_on>
+        <sys_id>a5ee74a8db012490425f81791396198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>85494bb4dbb0081015e3dd18f4961925</id>
         <sys_created_by>tomb</sys_created_by>
@@ -6120,6 +6470,88 @@ outputs.u_finished = obj.finished;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=85494bb4dbb0081015e3dd18f4961925^sys_idNOT INe9ee74a8db012490425f817913961982"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=5b1651b9-e050-48b7-8ce0-3d54ebb28e7a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">85494bb4dbb0081015e3dd18f4961925</model>
+        <model_id>85494bb4dbb0081015e3dd18f4961925</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_85494bb4dbb0081015e3dd18f4961925</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:15:19</sys_created_on>
+        <sys_id>e9ee74a8db012490425f817913961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:15:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_c5490bb4dbb0081015e3dd18f49619e5^sys_idNOT IN45494bb4dbb0081015e3dd18f4961923,4ca635cadbbec4106846dd384b9619c2,8d490bb4dbb0081015e3dd18f49619eb"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>lab_code</element>

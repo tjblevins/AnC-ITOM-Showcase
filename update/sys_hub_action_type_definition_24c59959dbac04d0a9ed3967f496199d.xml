@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>update_inventory_sources</internal_name>
         <label_cache>[{"name":"{{action.ansible_tower}}","label":"action➛Ansible Tower","type":"action","ref":""},{"name":"{{action.inventory_name}}","label":"action➛Inventory Name","type":"action","ref":""},{"name":"{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.sys_id}}","label":"step➛Get Tower Sys_ID➛Virtual Machine Instance Record➛Sys ID","type":"step","ref":""},{"name":"{{step[9972f490-99de-4852-8aa2-9da794bfb8fe].record.parent.sys_id}}","label":"step➛Find Inventory Record For Tower➛CI Relationship Record➛Parent➛Sys ID","type":"step","ref":""},{"name":"{{step[972290de-e982-4744-9b2d-071d4f4d1e7a].record}}","label":"step➛Get Inventory Record➛Record","type":"step","ref":""},{"name":"{{step[b2cc0932-7042-4900-8582-f3ce990b1797].record.url}}","label":"step➛Get Tower Sys_ID➛Ansible Tower Record➛URL","type":"step","ref":""},{"name":"{{step[972290de-e982-4744-9b2d-071d4f4d1e7a].record.object_id}}","label":"step➛Get Inventory Record➛Ansible Tower Inventory Record➛Object ID","type":"step","ref":""},{"name":"{{step[6a340f75-c7ac-49c7-82a2-fa4d1e300ed2].response_body}}","label":"step➛Trigger Tower Inventory Update➛Response Body","type":"step","ref":""},{"name":"{{step[ecf321da-51f0-4565-b2f8-c989a178b783].u_id}}","label":"step➛Parse API Responce➛u_id","type":"step","ref":""},{"name":"{{step[ecf321da-51f0-4565-b2f8-c989a178b783].u_status}}","label":"step➛Parse API Responce➛u_status","type":"step","ref":""},{"name":"{{step[6a340f75-c7ac-49c7-82a2-fa4d1e300ed2].status_code}}","label":"step➛Trigger Tower Inventory Update➛Status Code","type":"step","ref":""},{"name":"{{step[6a340f75-c7ac-49c7-82a2-fa4d1e300ed2].error_code}}","label":"step➛Trigger Tower Inventory Update➛Error Code","type":"step","ref":""},{"name":"{{step[6a340f75-c7ac-49c7-82a2-fa4d1e300ed2].error_message}}","label":"step➛Trigger Tower Inventory Update➛Error Message","type":"step","ref":""},{"name":"{{step[ecf321da-51f0-4565-b2f8-c989a178b783].u_inventory_source}}","label":"step➛Parse API Responce➛u_inventory_source","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>8c926d6fdb20001015e3dd18f4961907</latest_snapshot>
+        <latest_snapshot>42ff386cdb012490425f817913961905</latest_snapshot>
         <master_snapshot>25a535d1dba044d0a9ed3967f496196d</master_snapshot>
         <name>Ansible - Update Inventory Sources</name>
         <natlang/>
@@ -25,15 +25,15 @@
         <sys_created_on>2019-10-16 10:56:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>24c59959dbac04d0a9ed3967f496199d</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Ansible - Update Inventory Sources</sys_name>
         <sys_overrides/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_24c59959dbac04d0a9ed3967f496199d</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:39:17</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -525,7 +525,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -583,14 +583,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:46</sys_created_on>
         <sys_id>6ddc2591db6044d0a9ed3967f4961946</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 12:37:46</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -607,7 +607,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0f612455-a17c-4858-8877-a6712dd11204</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -665,14 +665,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:47</sys_created_on>
         <sys_id>35dc2591db6044d0a9ed3967f496194c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 12:37:47</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -688,7 +688,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6abf6133-0042-4613-8013-a3e9661bb8be</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -746,14 +746,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:00:03</sys_created_on>
         <sys_id>c8f1bdd9db6044d0a9ed3967f4961935</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:00:03</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -769,7 +769,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=63e416fd-3fa2-4452-acf5-0be9b26704ba</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -827,14 +827,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:47</sys_created_on>
         <sys_id>fddc2591db6044d0a9ed3967f4961956</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:00:03</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -863,14 +863,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:16:05</sys_created_on>
         <sys_id>c0e7e559db2044d0a9ed3967f49619f6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 12:37:46</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c0e7e559db2044d0a9ed3967f49619f6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -946,15 +946,29 @@ outputs.u_inventory_source = obj.inventory_source;
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>c0e7e559db2044d0a9ed3967f49619f6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:19:45</sys_created_on>
+        <sys_id>aeefb06cdb012490425f817913961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:19:45</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c0e7e559db2044d0a9ed3967f49619f6</document_key>
         <order>30</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:16:06</sys_created_on>
         <sys_id>c8e72959db2044d0a9ed3967f4961911</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 12:19:00</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_updated_on>2020-12-09 14:19:45</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c0e7e559db2044d0a9ed3967f49619f6"/>
@@ -1007,6 +1021,18 @@ outputs.u_inventory_source = obj.inventory_source;
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>c0e7e559db2044d0a9ed3967f49619f6</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:19:45</sys_created_on>
+        <sys_id>2eefb06cdb012490425f817913961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:19:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>c0e7e559db2044d0a9ed3967f49619f6</id>
         <sys_created_by>david.loo</sys_created_by>
@@ -1054,12 +1080,94 @@ outputs.u_inventory_source = obj.inventory_source;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>/api/v2/inventories/{{step[972290de-e982-4744-9b2d-071d4f4d1e7a].record.object_id}}/update_inventory_sources/</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c0e7e559db2044d0a9ed3967f49619f6^sys_idNOT IN16efb06cdb012490425f817913961947"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=7f64a068-d449-4431-8a09-4bf40da75a46</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Trigger Tower Inventory Update">c0e7e559db2044d0a9ed3967f49619f6</model>
+        <model_id>c0e7e559db2044d0a9ed3967f49619f6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c0e7e559db2044d0a9ed3967f49619f6</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:19:45</sys_created_on>
+        <sys_id>16efb06cdb012490425f817913961947</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_action_input action="delete_multiple" query="model=24c59959dbac04d0a9ed3967f496199d^sys_idNOT IN03242d91db2044d0a9ed3967f49619b9,c3246d51db2044d0a9ed3967f49619fa"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ece8f4f4-0285-4445-a683-4e88f126591a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1117,14 +1225,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 11:59:55</sys_created_on>
         <sys_id>03242d91db2044d0a9ed3967f49619b9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 11:59:55</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1140,7 +1248,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f04b46af-47cd-4d6f-8c02-bcd90177faf9</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1198,14 +1306,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 11:59:55</sys_created_on>
         <sys_id>c3246d51db2044d0a9ed3967f49619fa</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 11:59:55</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1222,7 +1330,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=35009511-dc95-44b0-971e-0149931ffc89</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1282,14 +1390,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>0adc2591db6044d0a9ed3967f4961972</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:39:09</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:19:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1305,7 +1413,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=062c93f3-07a0-4c1c-9c7e-ee40358f1e2f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1365,14 +1473,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>0adc2591db6044d0a9ed3967f4961977</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:39:09</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:19:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1388,7 +1496,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=6177124a-6191-48ab-a166-c905ac3104a1</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1448,14 +1556,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>0adc2591db6044d0a9ed3967f496197c</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:39:09</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:19:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1471,7 +1579,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=315afe1f-c9d1-4de1-b240-e20d47e041b9</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1531,14 +1639,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:00:06</sys_created_on>
         <sys_id>a8f1bdd9db6044d0a9ed3967f49619b0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:00:06</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1554,7 +1662,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d246030e-cba3-4c80-98b3-ba3a5bf74060</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1614,14 +1722,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>b9dc2591db6044d0a9ed3967f496196c</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:39:09</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:19:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1637,7 +1745,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=e48e65ea-3c53-496b-b649-801ccb388f40</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1697,14 +1805,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>cedc2591db6044d0a9ed3967f496198d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 12:37:48</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1720,7 +1828,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=88325d28-42c1-4ff7-8454-6c306de7dae3</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1780,14 +1888,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>cedc2591db6044d0a9ed3967f4961992</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 12:37:48</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2128,7 +2236,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2186,14 +2294,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:46</sys_created_on>
         <sys_id>6ddc2591db6044d0a9ed3967f4961946</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 12:37:46</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2210,7 +2318,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0f612455-a17c-4858-8877-a6712dd11204</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2268,14 +2376,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:47</sys_created_on>
         <sys_id>35dc2591db6044d0a9ed3967f496194c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 12:37:47</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2291,7 +2399,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6abf6133-0042-4613-8013-a3e9661bb8be</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2349,14 +2457,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:00:03</sys_created_on>
         <sys_id>c8f1bdd9db6044d0a9ed3967f4961935</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:00:03</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2372,7 +2480,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=63e416fd-3fa2-4452-acf5-0be9b26704ba</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2430,14 +2538,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:37:47</sys_created_on>
         <sys_id>fddc2591db6044d0a9ed3967f4961956</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:00:03</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2466,14 +2574,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:16:05</sys_created_on>
         <sys_id>c0e7e559db2044d0a9ed3967f49619f6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 12:37:46</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:19:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c0e7e559db2044d0a9ed3967f49619f6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2549,15 +2657,29 @@ outputs.u_inventory_source = obj.inventory_source;
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>c0e7e559db2044d0a9ed3967f49619f6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:19:45</sys_created_on>
+        <sys_id>aeefb06cdb012490425f817913961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:19:45</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c0e7e559db2044d0a9ed3967f49619f6</document_key>
         <order>30</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 12:16:06</sys_created_on>
         <sys_id>c8e72959db2044d0a9ed3967f4961911</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 12:19:00</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_updated_on>2020-12-09 14:19:45</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c0e7e559db2044d0a9ed3967f49619f6"/>
@@ -2610,6 +2732,18 @@ outputs.u_inventory_source = obj.inventory_source;
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>c0e7e559db2044d0a9ed3967f49619f6</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:19:45</sys_created_on>
+        <sys_id>2eefb06cdb012490425f817913961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:19:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>c0e7e559db2044d0a9ed3967f49619f6</id>
         <sys_created_by>david.loo</sys_created_by>
@@ -2657,6 +2791,88 @@ outputs.u_inventory_source = obj.inventory_source;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>/api/v2/inventories/{{step[972290de-e982-4744-9b2d-071d4f4d1e7a].record.object_id}}/update_inventory_sources/</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c0e7e559db2044d0a9ed3967f49619f6^sys_idNOT IN16efb06cdb012490425f817913961947"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=7f64a068-d449-4431-8a09-4bf40da75a46</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Trigger Tower Inventory Update">c0e7e559db2044d0a9ed3967f49619f6</model>
+        <model_id>c0e7e559db2044d0a9ed3967f49619f6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c0e7e559db2044d0a9ed3967f49619f6</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:19:45</sys_created_on>
+        <sys_id>16efb06cdb012490425f817913961947</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:19:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_24c59959dbac04d0a9ed3967f496199d^sys_idNOT IN07242d91db2044d0a9ed3967f49619bd,47242d91db2044d0a9ed3967f49619b8"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>inventory_name</element>
@@ -2671,11 +2887,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 11:59:55</sys_created_on>
         <sys_id>07242d91db2044d0a9ed3967f49619bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Inventory Name</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_24c59959dbac04d0a9ed3967f496199d_inventory_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 11:59:55</sys_updated_on>
         <url/>
@@ -2694,11 +2910,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 11:59:55</sys_created_on>
         <sys_id>47242d91db2044d0a9ed3967f49619b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Ansible Tower</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_24c59959dbac04d0a9ed3967f496199d_ansible_tower_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 11:59:55</sys_updated_on>
         <url/>
@@ -2718,11 +2934,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>06dc2591db6044d0a9ed3967f496198d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_24c59959dbac04d0a9ed3967f496199d_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 12:37:48</sys_updated_on>
         <url/>
@@ -2741,11 +2957,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>06dc2591db6044d0a9ed3967f4961992</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job ID</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_24c59959dbac04d0a9ed3967f496199d_job_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 12:37:48</sys_updated_on>
         <url/>
@@ -2764,11 +2980,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>4edc2591db6044d0a9ed3967f4961971</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status Code</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_24c59959dbac04d0a9ed3967f496199d_status_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 12:37:48</sys_updated_on>
         <url/>
@@ -2787,11 +3003,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>4edc2591db6044d0a9ed3967f4961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Code</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_24c59959dbac04d0a9ed3967f496199d_error_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 12:37:48</sys_updated_on>
         <url/>
@@ -2810,11 +3026,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>4edc2591db6044d0a9ed3967f496197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Responce Body</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_24c59959dbac04d0a9ed3967f496199d_responce_body_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 12:37:48</sys_updated_on>
         <url/>
@@ -2833,11 +3049,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 13:00:06</sys_created_on>
         <sys_id>64f1bdd9db6044d0a9ed3967f49619b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Inventory Source</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_24c59959dbac04d0a9ed3967f496199d_inventory_source_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 13:00:06</sys_updated_on>
         <url/>
@@ -2856,11 +3072,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 12:37:48</sys_created_on>
         <sys_id>cadc2591db6044d0a9ed3967f49619a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Status</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_24c59959dbac04d0a9ed3967f496199d_job_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 12:37:48</sys_updated_on>
         <url/>
@@ -2870,21 +3086,21 @@ outputs.u_inventory_source = obj.inventory_source;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Ansible - Update Inventory Sources">24c59959dbac04d0a9ed3967f496199d</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"7aa5b5d1dba044d0a9ed3967f496190f","name":"plan"}}</plan>
-        <snapshot>8c926d6fdb20001015e3dd18f4961907</snapshot>
+        <snapshot>42ff386cdb012490425f817913961905</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7aa5b5d1dba044d0a9ed3967f496190f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:39:20</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:12</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3026,14 +3242,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>69a535d1dba044d0a9ed3967f4961997</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=69a535d1dba044d0a9ed3967f4961997"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3053,15 +3269,29 @@ outputs.u_inventory_source = obj.inventory_source;
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>69a535d1dba044d0a9ed3967f4961997</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:20:04</sys_created_on>
+        <sys_id>43ffb86cdb012490425f81791396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>69a535d1dba044d0a9ed3967f4961997</document_key>
         <order>30</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>7da535d1dba044d0a9ed3967f49619a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3170,6 +3400,18 @@ outputs.u_inventory_source = obj.inventory_source;
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>69a535d1dba044d0a9ed3967f4961997</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:20:04</sys_created_on>
+        <sys_id>0fffb86cdb012490425f817913961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>69a535d1dba044d0a9ed3967f4961997</id>
         <sys_created_by>david.loo</sys_created_by>
@@ -3217,6 +3459,88 @@ outputs.u_inventory_source = obj.inventory_source;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>/api/v2/inventories/{{step[972290de-e982-4744-9b2d-071d4f4d1e7a].record.object_id}}/update_inventory_sources/</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=69a535d1dba044d0a9ed3967f4961997^sys_idNOT IN07ffb86cdb012490425f81791396190d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=7f64a068-d449-4431-8a09-4bf40da75a46</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Trigger Tower Inventory Update">69a535d1dba044d0a9ed3967f4961997</model>
+        <model_id>69a535d1dba044d0a9ed3967f4961997</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_69a535d1dba044d0a9ed3967f4961997</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:20:04</sys_created_on>
+        <sys_id>07ffb86cdb012490425f81791396190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Ansible - Update Inventory Sources">25a535d1dba044d0a9ed3967f496196d</action>
         <cid>b2cc0932-7042-4900-8582-f3ce990b1797</cid>
@@ -3465,7 +3789,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3523,14 +3847,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>3da535d1dba044d0a9ed3967f49619a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3547,7 +3871,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6abf6133-0042-4613-8013-a3e9661bb8be</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3605,14 +3929,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>71a535d1dba044d0a9ed3967f49619ba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3628,7 +3952,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=63e416fd-3fa2-4452-acf5-0be9b26704ba</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3686,14 +4010,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>b1a535d1dba044d0a9ed3967f49619b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3709,7 +4033,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0f612455-a17c-4858-8877-a6712dd11204</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3767,14 +4091,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>f9a535d1dba044d0a9ed3967f49619af</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3857,7 +4181,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f04b46af-47cd-4d6f-8c02-bcd90177faf9</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3915,14 +4239,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:16</sys_created_on>
         <sys_id>25a535d1dba044d0a9ed3967f496196e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:16</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3938,7 +4262,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ece8f4f4-0285-4445-a683-4e88f126591a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3996,14 +4320,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:16</sys_created_on>
         <sys_id>6da535d1dba044d0a9ed3967f4961973</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:16</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4020,7 +4344,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=88325d28-42c1-4ff7-8454-6c306de7dae3</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4080,14 +4404,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>06a575d1dba044d0a9ed3967f4961929</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:18</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4103,7 +4427,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=315afe1f-c9d1-4de1-b240-e20d47e041b9</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4163,14 +4487,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>06a575d1dba044d0a9ed3967f496192e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:18</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4186,7 +4510,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=e48e65ea-3c53-496b-b649-801ccb388f40</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4246,14 +4570,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>35a575d1dba044d0a9ed3967f4961924</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:18</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4269,7 +4593,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=d246030e-cba3-4c80-98b3-ba3a5bf74060</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4329,14 +4653,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>75a535d1dba044d0a9ed3967f49619ea</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:39:17</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4352,7 +4676,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=062c93f3-07a0-4c1c-9c7e-ee40358f1e2f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4412,14 +4736,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>b5a575d1dba044d0a9ed3967f4961901</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:39:17</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4435,7 +4759,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=6177124a-6191-48ab-a166-c905ac3104a1</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4495,14 +4819,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>b5a575d1dba044d0a9ed3967f4961906</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:39:17</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4518,7 +4842,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=35009511-dc95-44b0-971e-0149931ffc89</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4578,14 +4902,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>fda535d1dba044d0a9ed3967f49619ef</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:39:17</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4615,14 +4939,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>69a535d1dba044d0a9ed3967f4961997</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=69a535d1dba044d0a9ed3967f4961997"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4642,15 +4966,29 @@ outputs.u_inventory_source = obj.inventory_source;
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
         <document_key>69a535d1dba044d0a9ed3967f4961997</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:20:04</sys_created_on>
+        <sys_id>43ffb86cdb012490425f81791396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>69a535d1dba044d0a9ed3967f4961997</document_key>
         <order>30</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>7da535d1dba044d0a9ed3967f49619a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4759,6 +5097,18 @@ outputs.u_inventory_source = obj.inventory_source;
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>69a535d1dba044d0a9ed3967f4961997</id>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:20:04</sys_created_on>
+        <sys_id>0fffb86cdb012490425f817913961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>69a535d1dba044d0a9ed3967f4961997</id>
         <sys_created_by>david.loo</sys_created_by>
@@ -4806,6 +5156,88 @@ outputs.u_inventory_source = obj.inventory_source;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>/api/v2/inventories/{{step[972290de-e982-4744-9b2d-071d4f4d1e7a].record.object_id}}/update_inventory_sources/</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=69a535d1dba044d0a9ed3967f4961997^sys_idNOT IN07ffb86cdb012490425f81791396190d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=7f64a068-d449-4431-8a09-4bf40da75a46</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Trigger Tower Inventory Update">69a535d1dba044d0a9ed3967f4961997</model>
+        <model_id>69a535d1dba044d0a9ed3967f4961997</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_69a535d1dba044d0a9ed3967f4961997</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:20:04</sys_created_on>
+        <sys_id>07ffb86cdb012490425f81791396190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:20:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Ansible - Update Inventory Sources">25a535d1dba044d0a9ed3967f496196d</action>
         <cid>b2cc0932-7042-4900-8582-f3ce990b1797</cid>
@@ -5054,7 +5486,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5112,14 +5544,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>3da535d1dba044d0a9ed3967f49619a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5136,7 +5568,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6abf6133-0042-4613-8013-a3e9661bb8be</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5194,14 +5626,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>71a535d1dba044d0a9ed3967f49619ba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5217,7 +5649,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=63e416fd-3fa2-4452-acf5-0be9b26704ba</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5275,14 +5707,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>b1a535d1dba044d0a9ed3967f49619b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5298,7 +5730,7 @@ outputs.u_inventory_source = obj.inventory_source;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0f612455-a17c-4858-8877-a6712dd11204</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5356,14 +5788,14 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_by>david.loo</sys_created_by>
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>f9a535d1dba044d0a9ed3967f49619af</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
-        <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
+        <sys_updated_on>2020-12-09 14:20:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5455,11 +5887,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 13:16:16</sys_created_on>
         <sys_id>29a535d1dba044d0a9ed3967f4961984</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Inventory Name</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_25a535d1dba044d0a9ed3967f496196d_inventory_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 13:16:16</sys_updated_on>
         <url/>
@@ -5478,11 +5910,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 13:16:16</sys_created_on>
         <sys_id>a1a535d1dba044d0a9ed3967f4961973</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Ansible Tower</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_25a535d1dba044d0a9ed3967f496196d_ansible_tower_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 13:16:16</sys_updated_on>
         <url/>
@@ -5502,11 +5934,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 13:16:17</sys_created_on>
         <sys_id>35a535d1dba044d0a9ed3967f49619ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status Code</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_25a535d1dba044d0a9ed3967f496196d_status_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 13:16:17</sys_updated_on>
         <url/>
@@ -5525,11 +5957,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>4aa575d1dba044d0a9ed3967f4961928</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job ID</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_25a535d1dba044d0a9ed3967f496196d_job_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 13:16:18</sys_updated_on>
         <url/>
@@ -5548,11 +5980,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>4aa575d1dba044d0a9ed3967f496192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Status</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_25a535d1dba044d0a9ed3967f496196d_job_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 13:16:18</sys_updated_on>
         <url/>
@@ -5571,11 +6003,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>4aa575d1dba044d0a9ed3967f4961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Inventory Source</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_25a535d1dba044d0a9ed3967f496196d_inventory_source_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 13:16:18</sys_updated_on>
         <url/>
@@ -5594,11 +6026,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>f9a575d1dba044d0a9ed3967f4961900</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Code</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_25a535d1dba044d0a9ed3967f496196d_error_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 13:16:18</sys_updated_on>
         <url/>
@@ -5617,11 +6049,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>f9a575d1dba044d0a9ed3967f4961905</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Responce Body</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_25a535d1dba044d0a9ed3967f496196d_responce_body_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 13:16:18</sys_updated_on>
         <url/>
@@ -5640,11 +6072,11 @@ outputs.u_inventory_source = obj.inventory_source;
         <sys_created_on>2019-10-16 13:16:18</sys_created_on>
         <sys_id>f9a575d1dba044d0a9ed3967f496190a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_25a535d1dba044d0a9ed3967f496196d_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2019-10-16 13:16:18</sys_updated_on>
         <url/>

@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>ansible_launch_template</internal_name>
         <label_cache>[{"name":"{{action.toweripaddress}}","label":"action➛TowerIPAddress","type":"action","ref":""},{"name":"{{action.temp_id}}","label":"action➛Temp_ID","type":"action","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_id}}","label":"step➛Script step➛u_id","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_status}}","label":"step➛Script step➛u_status","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_failed}}","label":"step➛Script step➛u_failed","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_started}}","label":"step➛Script step➛u_started","type":"step","ref":""},{"name":"{{step[55067207-a011-4868-81ef-8a6ce2faec47].u_finished}}","label":"step➛Script step➛u_finished","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>67d225efdb20001015e3dd18f496191c</latest_snapshot>
+        <latest_snapshot>f74049acdb012490425f817913961966</latest_snapshot>
         <master_snapshot>af7abacfdb3b5b00c71f6583ca96195f</master_snapshot>
         <name>Ansible - Launch Template</name>
         <natlang/>
@@ -25,15 +25,15 @@
         <sys_created_on>2018-08-13 05:07:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>b6c3fa07db3b5b00c71f6583ca961970</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name>Ansible - Launch Template</sys_name>
         <sys_overrides/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b6c3fa07db3b5b00c71f6583ca961970</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:40:37</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:35</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -264,7 +264,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -322,14 +322,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:45</sys_created_on>
         <sys_id>d0a8765edbfb3b00a9ed3967f4961998</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:45</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -346,7 +346,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f6315068-291c-46b0-aa7f-bc0970d9a075</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -404,14 +404,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>20a8765edbfb3b00a9ed3967f49619b2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -427,7 +427,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f95057c0-b99a-4964-88a4-0663361dfebf</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -485,14 +485,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>28a8765edbfb3b00a9ed3967f496199d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -508,7 +508,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dd2d361c-0634-4159-8257-7167450ef1ee</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -566,14 +566,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>60a8765edbfb3b00a9ed3967f49619ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -589,7 +589,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dd0163f1-6176-4e96-9177-71790717c851</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -647,14 +647,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>a0a8765edbfb3b00a9ed3967f49619a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -670,7 +670,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2447c238-72ae-4c3e-b5e0-c7420f644991</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -728,14 +728,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>e0a8765edbfb3b00a9ed3967f49619a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -764,14 +764,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:36:51</sys_created_on>
         <sys_id>f87af6cfdb3b5b00c71f6583ca9619b2</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>REST step</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_step_instance_f87af6cfdb3b5b00c71f6583ca9619b2</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-23 12:57:56</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f87af6cfdb3b5b00c71f6583ca9619b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -894,10 +894,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:36:51</sys_created_on>
         <sys_id>857af6cfdb3b5b00c71f6583ca9619de</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2019-05-30 12:23:56</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -936,10 +936,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:36:51</sys_created_on>
         <sys_id>c17af6cfdb3b5b00c71f6583ca9619df</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-23 12:41:05</sys_updated_on>
-        <value/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1177,12 +1177,94 @@ outputs.u_finished = obj.finished;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f87af6cfdb3b5b00c71f6583ca9619b2^sys_idNOT INff3045acdb012490425f817913961911"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=455bb95f-0362-47f4-b9b0-e81a98774a94</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">f87af6cfdb3b5b00c71f6583ca9619b2</model>
+        <model_id>f87af6cfdb3b5b00c71f6583ca9619b2</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_f87af6cfdb3b5b00c71f6583ca9619b2</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:21:13</sys_created_on>
+        <sys_id>ff3045acdb012490425f817913961911</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_action_input action="delete_multiple" query="model=b6c3fa07db3b5b00c71f6583ca961970^sys_idNOT INac7af6cfdb3b5b00c71f6583ca961965,fc7af6cfdb3b5b00c71f6583ca961979"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f9abf31e-1687-4295-ab40-68c336c23f74</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1240,14 +1322,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:36:50</sys_created_on>
         <sys_id>ac7af6cfdb3b5b00c71f6583ca961965</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:42:27</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1263,7 +1345,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1dbcd85c-9707-4807-9cca-0082ee62e027</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1321,14 +1403,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:36:50</sys_created_on>
         <sys_id>fc7af6cfdb3b5b00c71f6583ca961979</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:42:27</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1345,7 +1427,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=71bbd651-1b64-4cb0-a868-280534cbfde4</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1405,14 +1487,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:22</sys_created_on>
         <sys_id>05678f07dbbb5b00c71f6583ca9619d2</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>79</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:40:30</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1428,7 +1510,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=57893752-aecb-4391-b106-594a09eafc0b</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1488,14 +1570,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>24a8765edbfb3b00a9ed3967f49619da</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1511,7 +1593,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4504dd88-c80e-472e-848b-97d3987899b0</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1571,14 +1653,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:23</sys_created_on>
         <sys_id>81678f07dbbb5b00c71f6583ca9619df</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>79</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:40:30</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1594,7 +1676,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=5e806450-dd1f-41e5-9cc8-7a2454b29bf0</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1654,14 +1736,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:47</sys_created_on>
         <sys_id>b4a8765edbfb3b00a9ed3967f49619df</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:47</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1677,7 +1759,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=b0d32035-d0e5-47c9-845e-0640e02e68ac</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1737,14 +1819,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:47</sys_created_on>
         <sys_id>b4a8765edbfb3b00a9ed3967f49619e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:47</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1760,7 +1842,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=7c952141-e792-4e5e-96a1-8d46f0938510</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1820,14 +1902,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:47</sys_created_on>
         <sys_id>b4a8765edbfb3b00a9ed3967f49619e9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:47</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1843,7 +1925,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=2e2d2b66-efc2-4a89-b1f8-920a7bb64715</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1903,14 +1985,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:47</sys_created_on>
         <sys_id>b4a8765edbfb3b00a9ed3967f49619ee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:47</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1926,7 +2008,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=da95e154-5e39-4d31-8fed-2df94880503c</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1986,14 +2068,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:23</sys_created_on>
         <sys_id>c9678f07dbbb5b00c71f6583ca9619d8</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>79</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:40:30</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2009,7 +2091,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=36284a43-3d99-4865-993a-7ef75756ab26</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2069,14 +2151,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:22</sys_created_on>
         <sys_id>f8678f07dbbb5b00c71f6583ca9619ca</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>79</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:40:30</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2204,7 +2286,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2262,14 +2344,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:45</sys_created_on>
         <sys_id>d0a8765edbfb3b00a9ed3967f4961998</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:45</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2286,7 +2368,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f6315068-291c-46b0-aa7f-bc0970d9a075</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2344,14 +2426,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>20a8765edbfb3b00a9ed3967f49619b2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2367,7 +2449,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f95057c0-b99a-4964-88a4-0663361dfebf</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2425,14 +2507,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>28a8765edbfb3b00a9ed3967f496199d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2448,7 +2530,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dd2d361c-0634-4159-8257-7167450ef1ee</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2506,14 +2588,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>60a8765edbfb3b00a9ed3967f49619ad</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2529,7 +2611,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dd0163f1-6176-4e96-9177-71790717c851</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2587,14 +2669,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>a0a8765edbfb3b00a9ed3967f49619a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2610,7 +2692,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2447c238-72ae-4c3e-b5e0-c7420f644991</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2668,14 +2750,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:46</sys_created_on>
         <sys_id>e0a8765edbfb3b00a9ed3967f49619a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:46</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2704,14 +2786,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:36:51</sys_created_on>
         <sys_id>f87af6cfdb3b5b00c71f6583ca9619b2</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>REST step</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_step_instance_f87af6cfdb3b5b00c71f6583ca9619b2</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-23 12:57:56</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f87af6cfdb3b5b00c71f6583ca9619b2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2834,10 +2916,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:36:51</sys_created_on>
         <sys_id>857af6cfdb3b5b00c71f6583ca9619de</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2019-05-30 12:23:56</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2876,10 +2958,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:36:51</sys_created_on>
         <sys_id>c17af6cfdb3b5b00c71f6583ca9619df</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-23 12:41:05</sys_updated_on>
-        <value/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:13</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3117,6 +3199,88 @@ outputs.u_finished = obj.finished;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f87af6cfdb3b5b00c71f6583ca9619b2^sys_idNOT INff3045acdb012490425f817913961911"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=455bb95f-0362-47f4-b9b0-e81a98774a94</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">f87af6cfdb3b5b00c71f6583ca9619b2</model>
+        <model_id>f87af6cfdb3b5b00c71f6583ca9619b2</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_f87af6cfdb3b5b00c71f6583ca9619b2</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:21:13</sys_created_on>
+        <sys_id>ff3045acdb012490425f817913961911</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_b6c3fa07db3b5b00c71f6583ca961970^sys_idNOT IN7c7af6cfdb3b5b00c71f6583ca96197e,a47af6cfdb3b5b00c71f6583ca961978,de813929db8c2740e243b6d1ba9619d0"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>temp_id</element>
@@ -3131,11 +3295,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 05:36:50</sys_created_on>
         <sys_id>7c7af6cfdb3b5b00c71f6583ca96197e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Temp_ID</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b6c3fa07db3b5b00c71f6583ca961970_temp_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-08-13 05:36:50</sys_updated_on>
         <url/>
@@ -3154,11 +3318,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 05:36:50</sys_created_on>
         <sys_id>a47af6cfdb3b5b00c71f6583ca961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>TowerIPAddress</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b6c3fa07db3b5b00c71f6583ca961970_toweripaddress_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-08-13 05:36:50</sys_updated_on>
         <url/>
@@ -3201,11 +3365,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 06:33:23</sys_created_on>
         <sys_id>01678f07dbbb5b00c71f6583ca9619e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-13 06:33:23</sys_updated_on>
         <url/>
@@ -3224,11 +3388,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 06:33:23</sys_created_on>
         <sys_id>49678f07dbbb5b00c71f6583ca9619dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Responce Body</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970_responce_body_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-13 06:33:23</sys_updated_on>
         <url/>
@@ -3247,11 +3411,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-09-12 13:55:47</sys_created_on>
         <sys_id>78a8b65edbfb3b00a9ed3967f496190b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Finished</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970_job_finished_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-09-12 13:55:47</sys_updated_on>
         <url/>
@@ -3270,11 +3434,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 06:33:23</sys_created_on>
         <sys_id>81678f07dbbb5b00c71f6583ca9619d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Code</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970_error_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-13 06:33:23</sys_updated_on>
         <url/>
@@ -3293,11 +3457,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 06:33:22</sys_created_on>
         <sys_id>c9678f07dbbb5b00c71f6583ca9619d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status Code</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970_status_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-13 06:33:22</sys_updated_on>
         <url/>
@@ -3316,11 +3480,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-09-12 13:55:47</sys_created_on>
         <sys_id>f8a8765edbfb3b00a9ed3967f49619de</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job ID</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970_job_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-09-12 13:55:47</sys_updated_on>
         <url/>
@@ -3339,11 +3503,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-09-12 13:55:47</sys_created_on>
         <sys_id>f8a8765edbfb3b00a9ed3967f49619e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Status</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970_job_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-09-12 13:55:47</sys_updated_on>
         <url/>
@@ -3362,11 +3526,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-09-12 13:55:47</sys_created_on>
         <sys_id>f8a8765edbfb3b00a9ed3967f49619e8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Failed</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970_job_failed_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-09-12 13:55:47</sys_updated_on>
         <url/>
@@ -3385,11 +3549,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-09-12 13:55:47</sys_created_on>
         <sys_id>f8a8765edbfb3b00a9ed3967f49619ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Started</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b6c3fa07db3b5b00c71f6583ca961970_job_started_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-09-12 13:55:47</sys_updated_on>
         <url/>
@@ -3399,21 +3563,21 @@ outputs.u_finished = obj.finished;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Ansible - Launch Template">b6c3fa07db3b5b00c71f6583ca961970</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a6482120dbbdb7409b7ed8b6f4961953","name":"plan"}}</plan>
-        <snapshot>67d225efdb20001015e3dd18f496191c</snapshot>
+        <snapshot>f74049acdb012490425f817913961966</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2019-05-30 11:29:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>a6482120dbbdb7409b7ed8b6f4961953</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>b6c3fa07db3b5b00c71f6583ca961970</sys_name>
         <sys_overrides/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_action_plan_a6482120dbbdb7409b7ed8b6f4961953</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:40:41</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:39</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3579,14 +3743,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_id>e37abacfdb3b5b00c71f6583ca961984</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>REST step</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_step_instance_e37abacfdb3b5b00c71f6583ca961984</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-23 12:58:02</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e37abacfdb3b5b00c71f6583ca961984"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3611,10 +3775,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_id>337abacfdb3b5b00c71f6583ca961995</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2019-05-30 12:24:00</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3695,10 +3859,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_id>7b7abacfdb3b5b00c71f6583ca961995</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-23 12:41:13</sys_updated_on>
-        <value/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3992,6 +4156,88 @@ outputs.u_finished = obj.finished;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e37abacfdb3b5b00c71f6583ca961984^sys_idNOT INf850c9acdb012490425f8179139619a3"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=455bb95f-0362-47f4-b9b0-e81a98774a94</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">e37abacfdb3b5b00c71f6583ca961984</model>
+        <model_id>e37abacfdb3b5b00c71f6583ca961984</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e37abacfdb3b5b00c71f6583ca961984</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:21:33</sys_created_on>
+        <sys_id>f850c9acdb012490425f8179139619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</action>
         <cid>55067207-a011-4868-81ef-8a6ce2faec47</cid>
@@ -4107,7 +4353,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4165,14 +4411,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:59</sys_created_on>
         <sys_id>ffa87a5edbfb3b00a9ed3967f496194f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:59</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4189,7 +4435,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dd0163f1-6176-4e96-9177-71790717c851</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4247,14 +4493,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:59</sys_created_on>
         <sys_id>37a87a5edbfb3b00a9ed3967f4961960</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:59</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4270,7 +4516,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2447c238-72ae-4c3e-b5e0-c7420f644991</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4328,14 +4574,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:59</sys_created_on>
         <sys_id>77a87a5edbfb3b00a9ed3967f496195b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:59</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4351,7 +4597,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f6315068-291c-46b0-aa7f-bc0970d9a075</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4409,14 +4655,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:56:00</sys_created_on>
         <sys_id>b3a87a5edbfb3b00a9ed3967f496196a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:00</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4432,7 +4678,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f95057c0-b99a-4964-88a4-0663361dfebf</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4490,14 +4736,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:59</sys_created_on>
         <sys_id>bfa87a5edbfb3b00a9ed3967f4961955</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:59</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4513,7 +4759,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dd2d361c-0634-4159-8257-7167450ef1ee</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4571,14 +4817,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:56:00</sys_created_on>
         <sys_id>f3a87a5edbfb3b00a9ed3967f4961965</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:00</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4595,7 +4841,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1dbcd85c-9707-4807-9cca-0082ee62e027</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4653,14 +4899,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_id>6f7abacfdb3b5b00c71f6583ca961975</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:42:40</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4676,7 +4922,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f9abf31e-1687-4295-ab40-68c336c23f74</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4734,14 +4980,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_id>af7abacfdb3b5b00c71f6583ca96196e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:42:40</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4758,7 +5004,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4504dd88-c80e-472e-848b-97d3987899b0</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4818,14 +5064,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>2a670347dbbb5b00c71f6583ca961957</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:40:37</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4841,7 +5087,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=57893752-aecb-4391-b106-594a09eafc0b</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4901,14 +5147,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:56:00</sys_created_on>
         <sys_id>48b87a5edbfb3b00a9ed3967f4961985</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:00</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4924,7 +5170,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=da95e154-5e39-4d31-8fed-2df94880503c</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4984,14 +5230,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>6e670347dbbb5b00c71f6583ca961951</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:40:37</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5007,7 +5253,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=2e2d2b66-efc2-4a89-b1f8-920a7bb64715</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5067,14 +5313,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:56:01</sys_created_on>
         <sys_id>80b87a5edbfb3b00a9ed3967f49619a6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:01</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5090,7 +5336,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=71bbd651-1b64-4cb0-a868-280534cbfde4</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5150,14 +5396,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>a2670347dbbb5b00c71f6583ca96194c</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:40:37</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5173,7 +5419,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=5e806450-dd1f-41e5-9cc8-7a2454b29bf0</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5233,14 +5479,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:56:00</sys_created_on>
         <sys_id>c8b87a5edbfb3b00a9ed3967f496198a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:00</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5256,7 +5502,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=b0d32035-d0e5-47c9-845e-0640e02e68ac</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5316,14 +5562,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:56:00</sys_created_on>
         <sys_id>c8b87a5edbfb3b00a9ed3967f496198f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:00</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5339,7 +5585,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=7c952141-e792-4e5e-96a1-8d46f0938510</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5399,14 +5645,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:56:01</sys_created_on>
         <sys_id>c8b87a5edbfb3b00a9ed3967f4961994</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:01</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5422,7 +5668,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=36284a43-3d99-4865-993a-7ef75756ab26</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5482,14 +5728,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>john.depot</sys_created_by>
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>ee670347dbbb5b00c71f6583ca961945</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-23 11:40:37</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5519,14 +5765,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_id>e37abacfdb3b5b00c71f6583ca961984</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>REST step</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name>sys_hub_step_instance_e37abacfdb3b5b00c71f6583ca961984</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-23 12:58:02</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e37abacfdb3b5b00c71f6583ca961984"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5551,10 +5797,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_id>337abacfdb3b5b00c71f6583ca961995</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>john.depot</sys_updated_by>
-        <sys_updated_on>2019-05-30 12:24:00</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"omit_if_empty":false},"name":"Authorization","value":"Basic YWRtaW46QXczczBtMzE="},{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"Content-Type","value":"application/json"}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5635,10 +5881,10 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_id>7b7abacfdb3b5b00c71f6583ca961995</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-23 12:41:13</sys_updated_on>
-        <value/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
+        <value>c418be8bdb3b5b00c71f6583ca9619ce</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5932,6 +6178,88 @@ outputs.u_finished = obj.finished;
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e37abacfdb3b5b00c71f6583ca961984^sys_idNOT INf850c9acdb012490425f8179139619a3"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=455bb95f-0362-47f4-b9b0-e81a98774a94</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">e37abacfdb3b5b00c71f6583ca961984</model>
+        <model_id>e37abacfdb3b5b00c71f6583ca961984</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e37abacfdb3b5b00c71f6583ca961984</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-12-09 14:21:33</sys_created_on>
+        <sys_id>f850c9acdb012490425f8179139619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Ansible - Launch Template">af7abacfdb3b5b00c71f6583ca96195f</action>
         <cid>55067207-a011-4868-81ef-8a6ce2faec47</cid>
@@ -6047,7 +6375,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6105,14 +6433,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:59</sys_created_on>
         <sys_id>ffa87a5edbfb3b00a9ed3967f496194f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:59</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6129,7 +6457,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dd0163f1-6176-4e96-9177-71790717c851</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6187,14 +6515,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:59</sys_created_on>
         <sys_id>37a87a5edbfb3b00a9ed3967f4961960</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:59</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6210,7 +6538,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2447c238-72ae-4c3e-b5e0-c7420f644991</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6268,14 +6596,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:59</sys_created_on>
         <sys_id>77a87a5edbfb3b00a9ed3967f496195b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:59</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6291,7 +6619,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f6315068-291c-46b0-aa7f-bc0970d9a075</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6349,14 +6677,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:56:00</sys_created_on>
         <sys_id>b3a87a5edbfb3b00a9ed3967f496196a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:00</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6372,7 +6700,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f95057c0-b99a-4964-88a4-0663361dfebf</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6430,14 +6758,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:55:59</sys_created_on>
         <sys_id>bfa87a5edbfb3b00a9ed3967f4961955</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:55:59</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6453,7 +6781,7 @@ outputs.u_finished = obj.finished;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dd2d361c-0634-4159-8257-7167450ef1ee</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6511,14 +6839,14 @@ outputs.u_finished = obj.finished;
         <sys_created_by>tomb</sys_created_by>
         <sys_created_on>2019-09-12 13:56:00</sys_created_on>
         <sys_id>f3a87a5edbfb3b00a9ed3967f4961965</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>tomb</sys_updated_by>
-        <sys_updated_on>2019-09-12 13:56:00</sys_updated_on>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-12-09 14:21:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6544,11 +6872,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_id>277abacfdb3b5b00c71f6583ca961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>TowerIPAddress</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_af7abacfdb3b5b00c71f6583ca96195f_toweripaddress_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-08-13 05:37:02</sys_updated_on>
         <url/>
@@ -6567,11 +6895,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 05:37:02</sys_created_on>
         <sys_id>eb7abacfdb3b5b00c71f6583ca96197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Temp_ID</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_af7abacfdb3b5b00c71f6583ca96195f_temp_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-08-13 05:37:02</sys_updated_on>
         <url/>
@@ -6591,11 +6919,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-09-12 13:56:00</sys_created_on>
         <sys_id>00b87a5edbfb3b00a9ed3967f496198a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job ID</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f_job_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-09-12 13:56:00</sys_updated_on>
         <url/>
@@ -6614,11 +6942,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-09-12 13:56:00</sys_created_on>
         <sys_id>00b87a5edbfb3b00a9ed3967f496198f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Status</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f_job_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-09-12 13:56:00</sys_updated_on>
         <url/>
@@ -6637,11 +6965,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-09-12 13:56:01</sys_created_on>
         <sys_id>00b87a5edbfb3b00a9ed3967f4961994</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Failed</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f_job_failed_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-09-12 13:56:01</sys_updated_on>
         <url/>
@@ -6660,11 +6988,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>22670347dbbb5b00c71f6583ca961951</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Code</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f_error_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-13 06:33:29</sys_updated_on>
         <url/>
@@ -6683,11 +7011,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>66670347dbbb5b00c71f6583ca96194b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status Code</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f_status_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-13 06:33:29</sys_updated_on>
         <url/>
@@ -6706,11 +7034,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 06:33:30</sys_created_on>
         <sys_id>a6670347dbbb5b00c71f6583ca96195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-13 06:33:30</sys_updated_on>
         <url/>
@@ -6729,11 +7057,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-09-12 13:56:01</sys_created_on>
         <sys_id>c4b87a5edbfb3b00a9ed3967f49619a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Started</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f_job_started_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-09-12 13:56:01</sys_updated_on>
         <url/>
@@ -6752,11 +7080,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-09-12 13:56:01</sys_created_on>
         <sys_id>c4b87a5edbfb3b00a9ed3967f49619aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Job Finished</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f_job_finished_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>tomb</sys_updated_by>
         <sys_updated_on>2019-09-12 13:56:01</sys_updated_on>
         <url/>
@@ -6775,11 +7103,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2018-08-13 06:33:29</sys_created_on>
         <sys_id>ea670347dbbb5b00c71f6583ca961956</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Responce Body</sys_name>
+        <sys_name/>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_af7abacfdb3b5b00c71f6583ca96195f_responce_body_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>john.depot</sys_updated_by>
         <sys_updated_on>2018-08-13 06:33:29</sys_updated_on>
         <url/>
