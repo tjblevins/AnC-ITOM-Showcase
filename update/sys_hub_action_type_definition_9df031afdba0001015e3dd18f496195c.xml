@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>zabbix__configure_agent__linux</internal_name>
         <label_cache>[{"name":"{{action.zabbix_ip}}","label":"action➛Zabbix IP","type":"action","ref":""},{"name":"{{action.tower_public}}","label":"action➛Tower Public","type":"action","ref":""},{"name":"{{action.tower_public_ip}}","label":"action➛Tower Public IP","type":"action","ref":""},{"name":"{{action.host_ip}}","label":"action➛Host IP","type":"action","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d8a6fc29-e984-4591-8a21-9560aada9fea].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_id}}","label":"step➛Script step➛u_id","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_status}}","label":"step➛Script step➛u_status","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_failed}}","label":"step➛Script step➛u_failed","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_started}}","label":"step➛Script step➛u_started","type":"step","ref":""},{"name":"{{step[a0d67a63-8982-45fe-b0bf-e60c80521cb0].u_finished}}","label":"step➛Script step➛u_finished","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>be94f468db8de090425f8179139619e1</latest_snapshot>
+        <latest_snapshot>3089fb7adbee60d084237608f49619ce</latest_snapshot>
         <master_snapshot>30c139efdba0001015e3dd18f4961955</master_snapshot>
         <name>Zabbix - Configure Agent - Linux</name>
         <natlang/>
@@ -24,6 +24,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:42:06</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>9df031afdba0001015e3dd18f496195c</sys_id>
         <sys_mod_count>12</sys_mod_count>
         <sys_name>Zabbix - Configure Agent - Linux</sys_name>
@@ -162,16 +163,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:42:08</sys_created_on>
         <sys_id>2df031afdba0001015e3dd18f49619af</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:08</sys_updated_on>
     </sys_hub_step_instance>
@@ -760,16 +756,11 @@ outputs.u_finished = obj.finished;
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:42:07</sys_created_on>
         <sys_id>a5f031afdba0001015e3dd18f496199d</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2020-12-09 13:30:05</sys_updated_on>
     </sys_hub_step_instance>
@@ -2148,16 +2139,11 @@ outputs.u_finished = obj.finished;
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:42:08</sys_created_on>
         <sys_id>2df031afdba0001015e3dd18f49619af</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:08</sys_updated_on>
     </sys_hub_step_instance>
@@ -2746,16 +2732,11 @@ outputs.u_finished = obj.finished;
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:42:07</sys_created_on>
         <sys_id>a5f031afdba0001015e3dd18f496199d</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2020-12-09 13:30:05</sys_updated_on>
     </sys_hub_step_instance>
@@ -3142,11 +3123,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:22</sys_created_on>
         <sys_id>01b135efdba0001015e3dd18f49619d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Host IP</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9df031afdba0001015e3dd18f496195c_host_ip_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:22</sys_updated_on>
         <url/>
@@ -3165,11 +3146,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:07</sys_created_on>
         <sys_id>21f031afdba0001015e3dd18f496198d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Zabbix IP</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9df031afdba0001015e3dd18f496195c_zabbix_ip_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:07</sys_updated_on>
         <url/>
@@ -3188,11 +3169,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:07</sys_created_on>
         <sys_id>55f031afdba0001015e3dd18f496197f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tower Public IP</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9df031afdba0001015e3dd18f496195c_tower_public_ip_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:07</sys_updated_on>
         <url/>
@@ -3212,11 +3193,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:09</sys_created_on>
         <sys_id>3df031afdba0001015e3dd18f49619f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Code</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9df031afdba0001015e3dd18f496195c_error_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:09</sys_updated_on>
         <url/>
@@ -3235,11 +3216,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:09</sys_created_on>
         <sys_id>4af071afdba0001015e3dd18f4961917</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job Status</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9df031afdba0001015e3dd18f496195c_job_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:09</sys_updated_on>
         <url/>
@@ -3258,11 +3239,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:09</sys_created_on>
         <sys_id>4ef071afdba0001015e3dd18f4961920</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job Started</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9df031afdba0001015e3dd18f496195c_job_started_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:09</sys_updated_on>
         <url/>
@@ -3281,11 +3262,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:09</sys_created_on>
         <sys_id>75f031afdba0001015e3dd18f49619db</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status Code</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9df031afdba0001015e3dd18f496195c_status_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:09</sys_updated_on>
         <url/>
@@ -3304,11 +3285,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:09</sys_created_on>
         <sys_id>75f031afdba0001015e3dd18f49619fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Responce Body</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9df031afdba0001015e3dd18f496195c_responce_body_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:09</sys_updated_on>
         <url/>
@@ -3327,11 +3308,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:09</sys_created_on>
         <sys_id>8ef071afdba0001015e3dd18f4961901</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9df031afdba0001015e3dd18f496195c_error_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:09</sys_updated_on>
         <url/>
@@ -3350,11 +3331,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:09</sys_created_on>
         <sys_id>c2f071afdba0001015e3dd18f496191c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job Failed</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9df031afdba0001015e3dd18f496195c_job_failed_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:09</sys_updated_on>
         <url/>
@@ -3373,11 +3354,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:09</sys_created_on>
         <sys_id>c6f071afdba0001015e3dd18f4961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job Finished</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9df031afdba0001015e3dd18f496195c_job_finished_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:09</sys_updated_on>
         <url/>
@@ -3396,11 +3377,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:42:09</sys_created_on>
         <sys_id>cef071afdba0001015e3dd18f4961912</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job ID</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9df031afdba0001015e3dd18f496195c_job_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:42:09</sys_updated_on>
         <url/>
@@ -3411,18 +3392,14 @@ outputs.u_finished = obj.finished;
         <action_id display_value="Zabbix - Configure Agent - Linux">9df031afdba0001015e3dd18f496195c</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"42c179efdba0001015e3dd18f49619db","name":"plan"}}</plan>
         <snapshot>be94f468db8de090425f8179139619e1</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:45:43</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>42c179efdba0001015e3dd18f49619db</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2020-12-09 13:30:35</sys_updated_on>
     </sys_hub_action_plan>
@@ -3448,6 +3425,7 @@ outputs.u_finished = obj.finished;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:45:37</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>30c139efdba0001015e3dd18f4961955</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
@@ -3586,16 +3564,11 @@ outputs.u_finished = obj.finished;
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:45:38</sys_created_on>
         <sys_id>c1c139efdba0001015e3dd18f496198f</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:38</sys_updated_on>
     </sys_hub_step_instance>
@@ -4184,16 +4157,11 @@ outputs.u_finished = obj.finished;
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:45:38</sys_created_on>
         <sys_id>fcc139efdba0001015e3dd18f4961971</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2020-12-09 13:30:27</sys_updated_on>
     </sys_hub_step_instance>
@@ -5572,16 +5540,11 @@ outputs.u_finished = obj.finished;
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:45:38</sys_created_on>
         <sys_id>c1c139efdba0001015e3dd18f496198f</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:38</sys_updated_on>
     </sys_hub_step_instance>
@@ -6170,16 +6133,11 @@ outputs.u_finished = obj.finished;
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-23 12:45:38</sys_created_on>
         <sys_id>fcc139efdba0001015e3dd18f4961971</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>david.loo</sys_updated_by>
         <sys_updated_on>2020-12-09 13:30:27</sys_updated_on>
     </sys_hub_step_instance>
@@ -6566,11 +6524,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:38</sys_created_on>
         <sys_id>30c139efdba0001015e3dd18f496195f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Zabbix IP</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_30c139efdba0001015e3dd18f4961955_zabbix_ip_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:38</sys_updated_on>
         <url/>
@@ -6589,11 +6547,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:38</sys_created_on>
         <sys_id>30c139efdba0001015e3dd18f4961970</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Host IP</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_30c139efdba0001015e3dd18f4961955_host_ip_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:38</sys_updated_on>
         <url/>
@@ -6612,11 +6570,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:37</sys_created_on>
         <sys_id>f4c139efdba0001015e3dd18f496195a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tower Public IP</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_30c139efdba0001015e3dd18f4961955_tower_public_ip_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:37</sys_updated_on>
         <url/>
@@ -6636,11 +6594,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:39</sys_created_on>
         <sys_id>01c139efdba0001015e3dd18f49619c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status Code</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_30c139efdba0001015e3dd18f4961955_status_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:39</sys_updated_on>
         <url/>
@@ -6659,11 +6617,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:39</sys_created_on>
         <sys_id>49c139efdba0001015e3dd18f49619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Code</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_30c139efdba0001015e3dd18f4961955_error_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:39</sys_updated_on>
         <url/>
@@ -6682,11 +6640,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:39</sys_created_on>
         <sys_id>55c139efdba0001015e3dd18f49619d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job ID</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_30c139efdba0001015e3dd18f4961955_job_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:39</sys_updated_on>
         <url/>
@@ -6705,11 +6663,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:39</sys_created_on>
         <sys_id>59c139efdba0001015e3dd18f49619e1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job Failed</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_30c139efdba0001015e3dd18f4961955_job_failed_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:39</sys_updated_on>
         <url/>
@@ -6728,11 +6686,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:39</sys_created_on>
         <sys_id>5dc139efdba0001015e3dd18f49619ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job Finished</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_30c139efdba0001015e3dd18f4961955_job_finished_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:39</sys_updated_on>
         <url/>
@@ -6751,11 +6709,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:39</sys_created_on>
         <sys_id>91c139efdba0001015e3dd18f49619cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Responce Body</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_30c139efdba0001015e3dd18f4961955_responce_body_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:39</sys_updated_on>
         <url/>
@@ -6774,11 +6732,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:39</sys_created_on>
         <sys_id>d1c139efdba0001015e3dd18f49619e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job Started</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_30c139efdba0001015e3dd18f4961955_job_started_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:39</sys_updated_on>
         <url/>
@@ -6797,11 +6755,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:39</sys_created_on>
         <sys_id>d9c139efdba0001015e3dd18f49619d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_30c139efdba0001015e3dd18f4961955_error_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:39</sys_updated_on>
         <url/>
@@ -6820,11 +6778,11 @@ outputs.u_finished = obj.finished;
         <sys_created_on>2019-10-23 12:45:39</sys_created_on>
         <sys_id>ddc139efdba0001015e3dd18f49619dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job Status</sys_name>
         <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_30c139efdba0001015e3dd18f4961955_job_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 12:45:39</sys_updated_on>
         <url/>

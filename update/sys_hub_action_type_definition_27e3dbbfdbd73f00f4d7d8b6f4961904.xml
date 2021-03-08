@@ -14,7 +14,7 @@ Returns URL and Host (Host may be and IP)</description>
         <ih_action>false</ih_action>
         <internal_name>get_tower_info</internal_name>
         <label_cache>[{"name":"{{action.name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{step[8ef4249d-1121-46b0-bb30-de5bcf14cccd].record.url}}","label":"step➛Look Up Record step➛Ansible Tower Record➛URL","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u}}","label":"step➛Script step➛u","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_}}","label":"step➛Script step➛u_","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_h}}","label":"step➛Script step➛u_h","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_ho}}","label":"step➛Script step➛u_ho","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_hos}}","label":"step➛Script step➛u_hos","type":"step","ref":""},{"name":"{{step[65f12846-3d19-46bc-acd9-d96d6b7c5894].u_host}}","label":"step➛Script step➛u_host","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>bb8329a3db60001015e3dd18f496197c</latest_snapshot>
+        <latest_snapshot>5339fff6dbee60d084237608f496195e</latest_snapshot>
         <master_snapshot>6d699ff7db1b3f00f4d7d8b6f49619aa</master_snapshot>
         <name>NOW - Get Tower Info</name>
         <natlang/>
@@ -25,6 +25,7 @@ Returns URL and Host (Host may be and IP)</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:14:31</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>27e3dbbfdbd73f00f4d7d8b6f4961904</sys_id>
         <sys_mod_count>17</sys_mod_count>
         <sys_name>NOW - Get Tower Info</sys_name>
@@ -79,16 +80,11 @@ Returns URL and Host (Host may be and IP)</description>
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:30:18</sys_created_on>
         <sys_id>a6875737db1b3f00f4d7d8b6f49619ed</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>Script step</sys_name>
-        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_hub_step_instance_a6875737db1b3f00f4d7d8b6f49619ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-08-23 11:38:19</sys_updated_on>
     </sys_hub_step_instance>
@@ -360,16 +356,11 @@ outputs.u_host = new_name;
         <outputs/>
         <section/>
         <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:30:16</sys_created_on>
         <sys_id>da875737db1b3f00f4d7d8b6f4961985</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Look Up Record step</sys_name>
-        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_hub_step_instance_da875737db1b3f00f4d7d8b6f4961985</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-08-23 11:30:16</sys_updated_on>
     </sys_hub_step_instance>
@@ -702,16 +693,11 @@ outputs.u_host = new_name;
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:30:18</sys_created_on>
         <sys_id>a6875737db1b3f00f4d7d8b6f49619ed</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>Script step</sys_name>
-        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_hub_step_instance_a6875737db1b3f00f4d7d8b6f49619ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-08-23 11:38:19</sys_updated_on>
     </sys_hub_step_instance>
@@ -983,16 +969,11 @@ outputs.u_host = new_name;
         <outputs/>
         <section/>
         <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:30:16</sys_created_on>
         <sys_id>da875737db1b3f00f4d7d8b6f4961985</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Look Up Record step</sys_name>
-        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_hub_step_instance_da875737db1b3f00f4d7d8b6f4961985</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-08-23 11:30:16</sys_updated_on>
     </sys_hub_step_instance>
@@ -1138,18 +1119,14 @@ outputs.u_host = new_name;
         <action_id display_value="NOW - Get Tower Info">27e3dbbfdbd73f00f4d7d8b6f4961904</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b9971b37db1b3f00f4d7d8b6f49619d4","name":"plan"}}</plan>
         <snapshot>bb8329a3db60001015e3dd18f496197c</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:30:31</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>b9971b37db1b3f00f4d7d8b6f49619d4</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name>27e3dbbfdbd73f00f4d7d8b6f4961904</sys_name>
         <sys_overrides/>
-        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_hub_action_plan_b9971b37db1b3f00f4d7d8b6f49619d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-10-23 11:43:37</sys_updated_on>
     </sys_hub_action_plan>
@@ -1176,6 +1153,7 @@ Returns URL and Host (Host may be and IP)</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:38:25</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>6d699ff7db1b3f00f4d7d8b6f49619aa</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
@@ -1230,16 +1208,11 @@ Returns URL and Host (Host may be and IP)</description>
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:38:28</sys_created_on>
         <sys_id>5e69dff7db1b3f00f4d7d8b6f4961964</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Script step</sys_name>
-        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_hub_step_instance_5e69dff7db1b3f00f4d7d8b6f4961964</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-08-23 11:38:28</sys_updated_on>
     </sys_hub_step_instance>
@@ -1511,16 +1484,11 @@ outputs.u_host = new_name;
         <outputs/>
         <section/>
         <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:38:26</sys_created_on>
         <sys_id>7169dff7db1b3f00f4d7d8b6f496190c</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Look Up Record step</sys_name>
-        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_hub_step_instance_7169dff7db1b3f00f4d7d8b6f496190c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-08-23 11:38:26</sys_updated_on>
     </sys_hub_step_instance>
@@ -1853,16 +1821,11 @@ outputs.u_host = new_name;
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:38:28</sys_created_on>
         <sys_id>5e69dff7db1b3f00f4d7d8b6f4961964</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Script step</sys_name>
-        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_hub_step_instance_5e69dff7db1b3f00f4d7d8b6f4961964</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-08-23 11:38:28</sys_updated_on>
     </sys_hub_step_instance>
@@ -2134,16 +2097,11 @@ outputs.u_host = new_name;
         <outputs/>
         <section/>
         <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-23 11:38:26</sys_created_on>
         <sys_id>7169dff7db1b3f00f4d7d8b6f496190c</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Look Up Record step</sys_name>
-        <sys_package display_value="ACE Ansible Management" source="x_snc_ansible_mana">20b534dedb1b9340786ff1351d961991</sys_package>
-        <sys_policy/>
         <sys_scope display_value="ACE Ansible Management">20b534dedb1b9340786ff1351d961991</sys_scope>
-        <sys_update_name>sys_hub_step_instance_7169dff7db1b3f00f4d7d8b6f496190c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-08-23 11:38:26</sys_updated_on>
     </sys_hub_step_instance>
